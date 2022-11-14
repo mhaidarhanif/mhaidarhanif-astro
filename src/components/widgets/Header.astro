@@ -4,7 +4,8 @@ import Logo from '~/components/atoms/Logo.astro';
 import ToggleTheme from '~/components/core/ToggleTheme.astro';
 import ToggleMenu from '~/components/core/ToggleMenu.astro';
 
-import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permalinks';
+import { getBlogPermalink, getHomePermalink } from '~/utils/permalinks';
+import { dataNavigationItems } from '~/data';
 ---
 
 <header
@@ -26,19 +27,26 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 			aria-label="Main navigation"
 		>
 			<ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-base">
-				<li>
-					<a
-						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href="#">Pages</a
-					>
-				</li>
-				<li>
+				{
+					dataNavigationItems.map((item) => {
+						return (
+							<a
+								class="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white"
+								href={item.href}
+							>
+								{item.children}
+							</a>
+						);
+					})
+				}
+				<!-- <li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
 						href={getPermalink('useful-resources-to-create-websites', 'post')}
-						>Resources
+					>
+						Resources
 					</a>
-				</li>
+				</li> -->
 				<li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
@@ -47,9 +55,12 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 				</li>
 				<li class="md:hidden">
 					<a
-						class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						target="_blank"
+						rel="noopener"
 						href="https://github.com/mhaidarhanif/astrowind"
-						>Github
+						class="font-bold hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+					>
+						GitHub
 					</a>
 				</li>
 			</ul>
@@ -64,9 +75,11 @@ import { getPermalink, getBlogPermalink, getHomePermalink } from '~/utils/permal
 						<Icon name="tabler:rss" class="w-5 h-5" />
 					</a>
 					<a
+						target="_blank"
+						rel="noopener"
 						href="https://github.com/mhaidarhanif/astrowind"
+						aria-label="GitHub"
 						class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
-						aria-label="Astrowind Github"
 					>
 						<Icon name="tabler:brand-github" class="w-5 h-5" />
 					</a>
