@@ -1,11 +1,18 @@
-# 🚀 AstroWind
+# M Haidar Hanif Website based on 🚀 Astro + Tailwind CSS = AstroWind
+
+This is personal website of **M Haidar Hanif** made using [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
+
+Based on **AstroWind** template, a free and open-source template to make your website using **Astro + Tailwind CSS**. Ready to start a new project and designed taking into account best practices. Originally from [onwidget/astrowind](https://github.com/onwidget/astrowind)
 
 <img src="lighthouse-score.png" align="right"
   alt="AstroWind Lighthouse Score" width="100" height="358" />
 
-**AstroWind** is a free and open-source template to make your website using **Astro + Tailwind CSS**. Ready to start a new project and designed taking into account best practices.
-
-Original template from [onwidget/astrowind](https://github.com/onwidget/astrowind)
+[![License](https://img.shields.io/github/license/mhaidarhanif/astrowind?style=flat-square&color=eeeeee&labelColor=000000)](https://github.com/mhaidarhanif/astrowind/blob/main/LICENSE.md)
+[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif/astrowind#contributing)
+[![Known Vulnerabilities](https://snyk.io/test/github/mhaidarhanif/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/mhaidarhanif/astrowind)
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=flat-square&logo=prettier&logoColor=F7BA3E)
+![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white)
 
 ## Features
 
@@ -16,17 +23,6 @@ Original template from [onwidget/astrowind](https://github.com/onwidget/astrowin
 - ✅ Generation of **project sitemap** based on your routes ([@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)).
 - ✅ **Open Graph tags** for social media sharing.
 - ✅ **Analytics** built-in Google Analytics, and Splitbee integration.
-
-<br>
-
-<img src="./screenshot.png" alt="AstroWind Theme Screenshot">
-
-[![License](https://img.shields.io/github/license/mhaidarhanif/astrowind?style=flat-square&color=eeeeee&labelColor=000000)](https://github.com/mhaidarhanif/astrowind/blob/main/LICENSE.md)
-[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif/astrowind#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/mhaidarhanif/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/mhaidarhanif/astrowind)
-![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=flat-square&logo=prettier&logoColor=F7BA3E)
-![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white)
 
 <details open>
 <summary>Table of Contents</summary>
@@ -47,9 +43,9 @@ Original template from [onwidget/astrowind](https://github.com/onwidget/astrowin
 
 <br>
 
-## Demo
+## Live
 
-📌 [astrowind-mhaidarhanif.vercel.app/](https://astrowind-mhaidarhanif.vercel.app/)
+📌 [mhaidarhanif.com](https://mhaidarhanif.com)
 
 <br>
 
@@ -57,7 +53,7 @@ Original template from [onwidget/astrowind](https://github.com/onwidget/astrowin
 
 ### Project structure
 
-Inside AstroWind template, you'll see the following folders and files:
+Inside the template, you'll see the following folders and files:
 
 ```
 /
@@ -110,9 +106,9 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
-[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/mhaidarhanif/astrowind/tree/main)
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/mhaidarhanif/mhaidarhanif-web/tree/main)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Update `config.mjs` and contents. Have fun!
+> 🧑‍🚀 **Seasoned astronaut?** configure `config.mjs` and contents. Have fun!
 
 <br>
 
@@ -127,7 +123,7 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`       | Build your production site to `./dist/`            |
 | `npm run preview`     | Preview your build locally, before deploying       |
 | `npm run format`      | Format codes with Prettier                         |
-| `npm run lint:eslint` | Run Eslint                                         |
+| `npm run lint:eslint` | Run ESLint                                         |
 | `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview` |
 
 <br>
@@ -207,39 +203,15 @@ Clone this repository on own GitHub account and deploy to Vercel:
 
 <br>
 
-## Roadmap
-
-- _Project_:
-  - Create simple and clear strategy to get template updates
-- _Blog_:
-  - Improve blog design
-  - Create component or utilities for related posts
-  - Add more _shortcodes_ or _embed_ functions to posts in Markdown: (eg video, tweet...)
-- _More widgets_:
-  - Add more Tailwind components useful for most scenarios (Features, Contact, Call to Actions, Content, FAQs ...)
-  - Create external library or place with useful Tailwind components
-- _More Examples_: Add commonly used example pages (Ex: About, Terms, Services...)
-- _Documentation_: Create detailed documentation with best practices and redesign tips
-
-<br>
-
-## Frequently Asked Questions
-
-- Why?
--
--
-
-<br>
-
 ## Contributing
 
 If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
 That would be very useful for all of us and we would be happy to listen and take action.
 
-## Acknowledgements
+## Acknowledgeme
 
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/mhaidarhanif/astrowind/graphs/contributors).
+Initially the template made by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/mhaidarhanif/astrowind/graphs/contributors).
 
 ## License
 
-**AstroWind** is licensed under the Unlicense license — see the [LICENSE](https://github.com/mhaidarhanif/astrowind/blob/main/LICENSE.md) file for details.
+Licensed under the Unlicense license — see the [LICENSE](LICENSE.md) file for details.
