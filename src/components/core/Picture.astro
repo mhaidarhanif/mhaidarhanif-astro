@@ -34,7 +34,7 @@ const { image = {}, sources = [] } = picture || {};
 {
 	src && image?.src && (
 		<picture {...attrs}>
-			{sources.map((attrs) => (
+			{sources.map((attrs: any) => (
 				<source {...attrs} sizes={sizes} />
 			))}
 			<img {...image} {loading} {decoding} {alt} class={className} />

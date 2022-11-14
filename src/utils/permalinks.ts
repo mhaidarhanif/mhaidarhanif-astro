@@ -53,7 +53,9 @@ export const getPermalink = (slug = '', type = 'page') => {
 };
 
 /** */
-export const getBlogPermalink = () => getPermalink(BLOG_BASE);
+export const getBlogPermalink = () => {
+	return getPermalink(BLOG_BASE);
+};
 
 /** */
 export const getHomePermalink = () => {
