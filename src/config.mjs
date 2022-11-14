@@ -1,20 +1,21 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'M Haidar Hanif',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://mhaidarhanif.com',
 	basePathname: '/',
 	trailingSlash: false,
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'M Haidar Hanif — Educator, Mentor, Consultant, Software Engineer, Web Developer',
+	description:
+		'⚡ Helping people to be better especially in modern career, web development, software engineering, tech business, and life in general.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleSiteVerificationId: '',
 };
 
 export const BLOG = {
 	disabled: false,
-	postsPerPage: 4,
+	postsPerPage: 3,
 
 	blog: {
 		disabled: false,

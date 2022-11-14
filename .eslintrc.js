@@ -12,7 +12,7 @@ module.exports = {
   rules: {},
   overrides: [
     {
-      files: ['*.js'],
+      files: ['*.js', '*.ts'],
       rules: {
         'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
       },
