@@ -7,10 +7,10 @@ Based on **AstroWind** template, a free and open-source template to make your we
 <img src="lighthouse-score.png" align="right"
   alt="AstroWind Lighthouse Score" width="100" height="358" />
 
-[![License](https://img.shields.io/github/license/mhaidarhanif/astrowind?style=flat-square&color=eeeeee&labelColor=000000)](https://github.com/mhaidarhanif/astrowind/blob/main/LICENSE.md)
+[![License](https://img.shields.io/github/license/mhaidarhanif/mhaidarhanif-web?style=flat-square&color=eeeeee&labelColor=000000)](https://github.com/mhaidarhanif/mhaidarhanif-web/blob/main/LICENSE.md)
 [![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif/astrowind#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/mhaidarhanif/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/mhaidarhanif/astrowind)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif/mhaidarhanif-web#contributing)
+[![Known Vulnerabilities](https://snyk.io/test/github/mhaidarhanif/mhaidarhanif-web/badge.svg?style=flat-square)](https://snyk.io/test/github/mhaidarhanif/mhaidarhanif-web)
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=flat-square&logo=prettier&logoColor=F7BA3E)
 ![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white)
 
@@ -193,7 +193,7 @@ prefer.
 
 Clone this repository on own GitHub account and deploy to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mhaidarhanif/astrowind)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mhaidarhanif/mhaidarhanif-web)
 
 #### Deploy to Vercel
 
@@ -210,7 +210,7 @@ That would be very useful for all of us and we would be happy to listen and take
 
 ## Acknowledgeme
 
-Initially the template made by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/mhaidarhanif/astrowind/graphs/contributors).
+Initially the template made by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/mhaidarhanif/mhaidarhanif-web/graphs/contributors).
 
 ## License
 
