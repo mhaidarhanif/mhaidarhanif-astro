@@ -1,13 +1,61 @@
 ---
-publishDate: 'Nov 16 2022'
-title: 'About Haidar'
-description: 'Short story how I got here'
+publishDate: 'Nov 30 2022'
+title: 'About M Haidar Hanif'
+description: 'Short story how Haidar went with his life.'
 excerpt: 'Around the 90s I was just learning stuffs...'
-image: '~/assets/photos/mhaidarhanif-plant.jpg'
+image: '~/assets/images/astronaut.jpg'
 tags: [about, personal]
 canonical: https://mhaidarhanif.com/about
 ---
 
-## Heading
+## About Haidar
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is a short story how I got here.
+
+Around the 90s I was just learning stuffs.
+
+Now helping people to become become better at what they do is my life and work mission.
+
+And I've been doing this professionally since 2010.
+
+### Main Work
+
+Currently I'm founding [Catamyst](https://catamyst.com), an education platform and software company to bring that mission forward. Especially in tech career, web app development, software engineering, and startup building.
+
+[Catamyst](https://catamyst.com) provides free and paid learning materials, private mentorship, as well as business/software development and consultancy service.
+
+If you want to get mentored by me directly and personally, just reach me out.
+
+### Current Works
+
+There are some collaborations run with Catamyst on which roles I have...
+
+Mentor and Content Creator at [CodePolitan](https://catamyst.codepolitan.com), a programming community and I'm in charge of the Frontend Web Development bootcamp.
+
+Curriculum Contributor at [RevoU](https://revou.co/software-engineering), in charge of the Full Stack Software Engineering bootcamp curriculum.
+
+Developer Relations Lead of [Kontenbase](https://kontenbase.com), a backend as a service platform that simple and easy to use.
+
+Web Consultant at [Super Duper Gallery](https://superdupergallery.com), a physical IRL unique art gallery.
+
+Community Lead of High Skill Masters and CODE (Casual On/Offline Developer Event), a gathering of highly skilled professionals and developers.
+
+(On Hold) Product Engineer of [Poinswap](https://poinswap), a decentralized exchange for cryptocurrencies and tokens.
+
+## Past Works
+
+Previously I was...
+
+Co-Founder and Lead Mentor of **Impact Byte**, a flexible coding bootcamp.
+
+Contract Consultant of **Qopnet**, a B2B marketplace.
+
+Senior Instructor of **Hacktiv8**, an intensive coding bootcamp.
+
+Teaching at **Agnium**, a software training agency.
+
+Coding at **AMPlified**, a startup incubator.
+
+And working as a freelancer and consultant in several places since 2010.
+
+The story continues here later.

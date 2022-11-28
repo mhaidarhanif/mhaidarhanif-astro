@@ -1,27 +1,36 @@
 ---
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
+const totalYear = currentYear - 2010;
 ---
 
 <div class="px-4 py-8 md:py-16 sm:px-6 mx-auto md:px-24 lg:px-8 lg:py-20 max-w-6xl">
 	<div class="grid grid-cols-2 row-gap-8 md:grid-cols-4">
 		<div class="text-center md:border-r dark:md:border-slate-500 mb-10 md:mb-0">
-			<div class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500 font-heading">~12</div>
-			<p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">Years</p>
+			<h2 class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500 font-heading">
+				<span>~{totalYear}</span>
+			</h2>
+			<h3 class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
+				<span>Years</span>
+			</h3>
 		</div>
 		<div class="text-center md:border-r dark:md:border-slate-500 mb-10 md:mb-0">
-			<div class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500 font-heading">±200</div>
-			<p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">Users</p>
+			<h2 class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500 font-heading">±200</h2>
+			<h3 class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
+				Users
+			</h3>
 		</div>
 		<div class="text-center md:border-r dark:md:border-slate-500 font-heading">
-			<div class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500">±1000</div>
-			<p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
+			<h2 class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500">±1000</h2>
+			<h3 class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
 				Followers
-			</p>
+			</h3>
 		</div>
 		<div class="text-center">
-			<div class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500 font-heading">±6000</div>
-			<p class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
+			<h2 class="text-4xl font-bold lg:text-5xl xl:text-6xl text-primary-500 font-heading">±6000</h2>
+			<h3 class="text-sm font-medium tracking-widest text-gray-800 dark:text-slate-400 uppercase lg:text-base">
 				Friends
-			</p>
+			</h3>
 		</div>
 	</div>
 </div>
