@@ -11,6 +11,10 @@ export const SITE = {
 
 	googleAnalyticsId: 'G-QWCFS2WLC1', // false or "G-XXXXXXXXXX",
 	googleSiteVerificationId: '',
+
+	splitbeeAnalytics: {
+		enabled: true,
+	},
 };
 
 export const BLOG = {

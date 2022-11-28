@@ -19,7 +19,7 @@ const { src: defaultImage } = await getImage({
 
 const {
 	title = SITE.name,
-	description = '',
+	description = 'Default description.',
 	image: _image = defaultImage,
 
 	canonical,
@@ -34,7 +34,7 @@ const image =
 	typeof _image === 'string'
 		? new URL(_image, Astro.site)
 		: _image && typeof _image['src'] !== 'undefined'
-		? new URL(getRelativeUrlByFilePath(_image.src), Astro.site)
+		? new URL(getRelativeUrlByFilePath(_image.src) as string, Astro.site)
 		: null;
 ---
 
