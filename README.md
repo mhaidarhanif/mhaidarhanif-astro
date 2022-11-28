@@ -1,8 +1,8 @@
 # M Haidar Hanif Website based on 🚀 Astro + Tailwind CSS = AstroWind
 
-This is personal website of **M Haidar Hanif** made using [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
+This is the personal website of **M Haidar Hanif** made using [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com).
 
-Based on **AstroWind** template, a free and open-source template to make your website using **Astro + Tailwind CSS**. Ready to start a new project and designed taking into account best practices. Originally from [onwidget/astrowind](https://github.com/onwidget/astrowind)
+Based on the **AstroWind** template, a free and open-source template to make your website using **Astro + Tailwind CSS**. Ready to start a new project and design taking into account best practices. Originally from [onwidget/astrowind](https://github.com/onwidget/astrowind)
 
 <img src="lighthouse-score.png" align="right"
   alt="AstroWind Lighthouse Score" width="100" height="358" />
@@ -12,7 +12,7 @@ Based on **AstroWind** template, a free and open-source template to make your we
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/mhaidarhanif/mhaidarhanif-web#contributing)
 [![Known Vulnerabilities](https://snyk.io/test/github/mhaidarhanif/mhaidarhanif-web/badge.svg?style=flat-square)](https://snyk.io/test/github/mhaidarhanif/mhaidarhanif-web)
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=flat-square&logo=prettier&logoColor=F7BA3E)
-![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white)
+![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=flat-square&logo=eslint&logoColor=white)
 
 ## Features
 
@@ -27,21 +27,22 @@ Based on **AstroWind** template, a free and open-source template to make your we
 <details open>
 <summary>Table of Contents</summary>
 
-- [Demo](#demo)
-- [Getting started](#getting-started)
-  - [Project structure](#project-structure)
-  - [Commands](#commands)
-  - [Configuration](#configuration)
-  - [Deploy](#deploy)
-- [Roadmap](#roadmap)
-- [Frequently Asked Questions](#frequently-asked-questions)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
+- [M Haidar Hanif Website based on 🚀 Astro + Tailwind CSS = AstroWind](#m-haidar-hanif-website-based-on--astro--tailwind-css--astrowind)
+  - [Features](#features)
+  - [Live](#live)
+  - [Getting started](#getting-started)
+    - [Project structure](#project-structure)
+    - [Commands](#commands)
+    - [Configuration](#configuration)
+    - [Deploy](#deploy)
+      - [Deploy to production (manual)](#deploy-to-production-manual)
+      - [Deploy to Netlify](#deploy-to-netlify)
+      - [Deploy to Vercel](#deploy-to-vercel)
+  - [Contributing](#contributing)
+  - [Acknowledgments](#acknowledgments)
+  - [License](#license)
 
 </details>
-
-<br>
 
 ## Live
 
@@ -185,19 +186,17 @@ You can create an optimized production build with:
 npm run build
 ```
 
-Now, your website is ready to be deployed. All generated files are located at
-`dist` folder, which you can deploy the folder to any hosting service you
-prefer.
+Now, your website is ready to be deployed. All generated files are located in `dist` folder, which you can deploy the folder to any hosting service you prefer.
 
 #### Deploy to Netlify
 
-Clone this repository on own GitHub account and deploy to Netlify:
+Clone this repository on your own GitHub account and deploy it to Netlify:
 
 [![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mhaidarhanif/mhaidarhanif-web)
 
 #### Deploy to Vercel
 
-Clone this repository on own GitHub account and deploy to Vercel:
+Clone this repository on your own GitHub account and deploy to Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmhaidarhanif%2Fastrowind)
 
@@ -205,12 +204,11 @@ Clone this repository on own GitHub account and deploy to Vercel:
 
 ## Contributing
 
-If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
-That would be very useful for all of us and we would be happy to listen and take action.
+If you have any idea, suggestions, or find any bugs, feel free to open a discussion, or an issue, or create a pull request. That would be very useful for all of us and we would be happy to listen and take action.
 
-## Acknowledgeme
+## Acknowledgments
 
-Initially the template made by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/mhaidarhanif/mhaidarhanif-web/graphs/contributors).
+Initially, the template was made by [onWidget](https://onwidget.com)](https://onwidget.com) and maintained by a community of [contributors](https://github.com/mhaidarhanif/mhaidarhanif-web/graphs/contributors).
 
 ## License
 
