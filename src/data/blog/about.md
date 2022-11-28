@@ -1,22 +1,22 @@
 ---
 publishDate: 'Nov 30 2022'
 title: 'About M Haidar Hanif'
-description: 'Short story how Haidar went with his life.'
-excerpt: 'Around the 90s I was just learning stuffs...'
+description: 'Short highlights how Haidar went with his life.'
+excerpt: 'Haidar is an Educator, Mentor, Developer, Designer, Consultant. Currently working on Catamyst and with CodePolitan, RevoU, Kontenbase, Poinswap, High Skill Masters, and Casual On/Offline Developer Event. Was also at Impact Byte, Hacktiv8, and so on...'
 image: '~/assets/images/astronaut.jpg'
 tags: [about, personal]
 canonical: https://mhaidarhanif.com/about
 ---
 
-## About Haidar
+## About Me
 
-This is a short story how I got here.
+Hi there! I'm Haidar.
 
-Around the 90s I was just learning stuffs.
+Mostly goes by as an Educator, Mentor, Developer, Designer, Consultant, and much more! And I've been doing this professionally since 2010.
+
+This is a short highlights how I got here. Starting around the 90s I was just learning stuffs.
 
 Now helping people to become become better at what they do is my life and work mission.
-
-And I've been doing this professionally since 2010.
 
 ### Main Work
 
@@ -24,7 +24,7 @@ Currently I'm founding [Catamyst](https://catamyst.com), an education platform a
 
 [Catamyst](https://catamyst.com) provides free and paid learning materials, private mentorship, as well as business/software development and consultancy service.
 
-If you want to get mentored by me directly and personally, just reach me out.
+If you want to get mentored by me directly and personally, [just reach me out](https://t.me/mhaidarhanif).
 
 ### Current Works
 
