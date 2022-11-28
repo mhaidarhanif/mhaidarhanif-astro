@@ -2,8 +2,8 @@
 publishDate: 'Nov 16 2022'
 title: 'About Haidar'
 description: 'Short story how I got here'
-excerpt: 'Around the 90s I was just...'
-image: '~/assets/images/astronaut.jpg'
+excerpt: 'Around the 90s I was just learning stuffs...'
+image: '~/assets/photos/mhaidarhanif-plant.jpg'
 tags: [about, personal]
 canonical: https://mhaidarhanif.com/about
 ---

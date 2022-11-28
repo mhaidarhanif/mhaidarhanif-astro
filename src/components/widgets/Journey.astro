@@ -4,7 +4,17 @@ import Picture from '~/components/core/Picture.astro';
 ---
 
 <section class="px-4 py-16 sm:px-6 mx-auto lg:px-8 lg:py-20 max-w-6xl">
-	<div class="grid gap-6 row-gap-10 md:grid-cols-2">
+	<div class="grid gap-10 row-gap-10 md:grid-cols-2">
+		<div class="relative">
+			<Picture
+				class="object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700 max-w-[500]"
+				src={import('~/assets/photos/mhaidarhanif-plant.jpg')}
+				alt="M Haidar Hanif"
+				widths={[500]}
+				sizes="(max-width: 500px) 100vw, 500px"
+				aspectRatio="1:1"
+			/>
+		</div>
 		<div class="md:pb-6 md:pr-16">
 			<h2 class="mb-8 text-3xl lg:text-4xl font-bold font-heading">My Journey</h2>
 			<div class="flex">
@@ -17,8 +27,8 @@ import Picture from '~/components/core/Picture.astro';
 					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
-					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Frontend</p>
-					<p>All things UI, UX, HTML, CSS, JavaScript, and React.</p>
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Frontend Web</p>
+					<p>All things UI, UX, HTML, CSS, JavaScript, TypeScript, and React.</p>
 				</div>
 			</div>
 			<div class="flex">
@@ -31,7 +41,7 @@ import Picture from '~/components/core/Picture.astro';
 					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
-					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Backend</p>
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Backend Web</p>
 					<p>All things database, DBMS, ORM, REST API, and GraphQL.</p>
 				</div>
 			</div>
@@ -45,8 +55,8 @@ import Picture from '~/components/core/Picture.astro';
 					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
-					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Full Stack</p>
-					<p>Everything combined!</p>
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Full Stack Web</p>
+					<p>Everything combined! Including Node.js, npm, deployment, etc.</p>
 				</div>
 			</div>
 			<div class="flex">
@@ -58,20 +68,12 @@ import Picture from '~/components/core/Picture.astro';
 					</div>
 				</div>
 				<div class="pt-1">
-					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">Super!</p>
+					<p class="mb-2 text-xl font-bold text-gray-900 dark:text-slate-300">
+						<span>Super Developer!</span>
+					</p>
 					<p class="text-gray-700"></p>
 				</div>
 			</div>
-		</div>
-		<div class="relative">
-			<Picture
-				class="inset-0 object-cover object-top w-full rounded-md shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700"
-				src={import('~/assets/images/astronaut.jpg')}
-				widths={[400, 768]}
-				sizes="(max-width: 768px) 100vw, 432px"
-				alt="Astronaut"
-				aspectRatio="432:768"
-			/>
 		</div>
 	</div>
 </section>
