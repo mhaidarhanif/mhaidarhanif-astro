@@ -5,7 +5,7 @@ description: 'Short highlights how Haidar went with his life.'
 excerpt: 'Haidar is an Educator, Mentor, Developer, Designer, Consultant. Currently working on Catamyst and with CodePolitan, RevoU, Kontenbase, Poinswap, High Skill Masters, and Casual On/Offline Developer Event. Was also at Impact Byte, Hacktiv8, and so on...'
 image: '~/assets/images/astronaut.jpg'
 tags: [about, personal]
-canonical: https://mhaidarhanif.com/about
+canonical: https://mhaidarhanif.com/about # When posting content to multiple platforms at the same time (such as this website and Medium) and want to specify the ultimate authority. Remove it to automatically generate canonical
 ---
 
 ## About Me
