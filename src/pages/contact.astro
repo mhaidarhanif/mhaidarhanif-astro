@@ -1,9 +1,11 @@
 ---
+import { SITE } from '~/config.mjs';
+
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const meta = {
-	title: 'Contact',
+	title: `Contact Me — ${SITE.name}`,
 	description: 'Contact Haidar through form or social media.',
 	canonical: '/contact',
 };
