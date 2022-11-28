@@ -43,7 +43,12 @@ const items = [
 	<div class="max-w-xl sm:mx-auto lg:max-w-4xl">
 		<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-4xl md:mb-12">
 			<h2 class="max-w-lg mb-4 text-3xl font-bold leading-none tracking-tight sm:text-4xl md:mx-auto font-heading">
-				My FAQ
+				<span>My Frequent</span>
+				<span
+					class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 whitespace-nowrap"
+				>
+					Questions
+				</span>
 			</h2>
 		</div>
 	</div>
@@ -55,7 +60,7 @@ const items = [
 						{subitems.map(({ question, answer }) => (
 							<div>
 								<p class="mb-4 text-xl font-bold">
-									<Icon name="tabler:arrow-down-right" class="text-primary-500 icon-bold inline-block h-7 w-7" />
+									<Icon name="tabler:arrow-down-right" class="icon-bold inline-block h-7 w-7 text-primary-500" />
 									{question}
 								</p>
 								{answer.split('\n\n').map((paragraph) => (

@@ -25,11 +25,8 @@ import Picture from '~/components/core/Picture.astro';
 							Fun coding since 2000 + Professional coding since 2010
 						</p>
 					</div>
-					<div
-						class="max-w-none px-6 flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4 justify-center items-center"
-					>
+					<div class="flex justify-center">
 						<FollowButton />
-						<a class="btn text-white bg-gray-700 hover:bg-gray-800" href="/about">Check my roundabout</a>
 					</div>
 				</div>
 			</div>
@@ -37,7 +34,7 @@ import Picture from '~/components/core/Picture.astro';
 				<div class="relative mb-8 m-auto max-w-3xl">
 					<Picture
 						src={import('~/assets/images/hero.jpg')}
-						class="mx-auto rounded-md shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
+						class="mx-auto rounded-xl shadow-xl bg-gray-400 dark:bg-slate-700 w-full"
 						widths={[400, 768]}
 						sizes="(max-width: 767px) 400px, 768px"
 						alt="Hero Image"

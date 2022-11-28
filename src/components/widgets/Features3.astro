@@ -11,11 +11,13 @@ import FollowButton from '~/components/atoms/FollowButton.astro';
 						<div class="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
 							<h2 class="mb-4 text-3xl lg:text-4xl font-bold font-heading">My Values</h2>
 
-							<p class="mb-8 text-xl text-gray-600 dark:text-slate-400">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi
-								risus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula.
-								Fusce sit amet dui tellus.
-							</p>
+							<div class="mb-8 text-xl text-gray-600 dark:text-slate-400">
+								<p class="mb-4">
+									Start the life with Why. Combine both education and technology. Remote work and asynchronous
+									collaboration.
+								</p>
+								<p>These 3 main values are at the core of what I'm doing for life and work for every single day.</p>
+							</div>
 
 							<div class="w-full">
 								<FollowButton />
@@ -29,14 +31,16 @@ import FollowButton from '~/components/atoms/FollowButton.astro';
 									<span
 										class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold rounded-full bg-primary-50 text-primary-600"
 									>
-										1</span
-									>
+										1
+									</span>
 								</div>
 								<div class="px-4">
 									<h3 class="mb-4 text-xl font-semibold font-heading">Start with Why</h3>
 									<p class="text-gray-500 dark:text-gray-400">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis
-										lobortis, mi risus tempus nulla.
+										<a href="https://simonsinek.com/books/start-with-why">
+											Start with Why shows that the leaders who’ve had the greatest influence in the world all think,
+											act, and communicate the same way—and it’s the opposite of what everyone else does.</a
+										>
 									</p>
 								</div>
 							</li>
@@ -45,14 +49,15 @@ import FollowButton from '~/components/atoms/FollowButton.astro';
 									<span
 										class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold rounded-full bg-primary-50 text-primary-600"
 									>
-										2</span
-									>
+										2
+									</span>
 								</div>
 								<div class="px-4">
 									<h3 class="mb-4 text-xl font-semibold font-heading">Education and Tech</h3>
 									<p class="text-gray-500 dark:text-gray-400">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis
-										lobortis, mi risus tempus nulla.
+										Educational technology is the combined use of computer hardware, software, and educational theory
+										and practice to facilitate learning. When referred to with its abbreviation, edtech, it often refers
+										to the industry of companies that create educational technology.
 									</p>
 								</div>
 							</li>
@@ -67,8 +72,19 @@ import FollowButton from '~/components/atoms/FollowButton.astro';
 								<div class="px-4">
 									<h3 class="mb-4 text-xl font-semibold font-heading">Remote and Async</h3>
 									<p class="text-gray-500 dark:text-gray-400">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis
-										lobortis, mi risus tempus nulla.
+										<span>Combine everything from{' '}</span>
+										<a href="https://37signals.com/books">
+											Remote shows both employers and employees how they can work together, remotely, from any desk, in
+											any space, in any place, anytime, anywhere.
+										</a>
+										<span>,</span>
+										<a href="https://twist.com/remote-work-guides/remote-team-communication">
+											The art of async: the remote guide to team communication
+										</a>
+										<span>, and</span>
+										<a href="https://blog.doist.com/async-first/">
+											Let's move the team toward async-first communication.</a
+										>
 									</p>
 								</div>
 							</li>
