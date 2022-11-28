@@ -2,6 +2,7 @@
 import { Icon } from 'astro-icon';
 import { getHomePermalink } from '~/utils/permalinks';
 import Logo from '~/components/atoms/Logo.astro';
+import { dataSocialLinks } from '~/data';
 
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
@@ -131,19 +132,28 @@ const currentYear = currentDate.getFullYear();
 				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Company</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>About</a
+						<a
+							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+							href="#"
 						>
+							About
+						</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Blog</a
+						<a
+							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+							href="#"
 						>
+							Blog
+						</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Careers</a
+						<a
+							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+							href="#"
 						>
+							Careers
+						</a>
 					</li>
 					<li class="mb-2">
 						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
@@ -151,73 +161,56 @@ const currentYear = currentDate.getFullYear();
 						>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Inclusion</a
+						<a
+							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+							href="#"
 						>
+							Inclusion
+						</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Social Impact</a
+						<a
+							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+							href="#"
 						>
+							Social Impact
+						</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Shop</a
+						<a
+							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+							href="#"
 						>
+							Shop
+						</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 		<div class="md:flex md:items-center md:justify-between py-6 md:py-8">
 			<ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
-				<li>
-					<a
-						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-						aria-label="Twitter"
-						href="#"
-					>
-						<Icon name="tabler:brand-twitter" class="w-5 h-5" />
-					</a>
-				</li>
-				<li>
-					<a
-						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-						aria-label="Instagram"
-						href="#"
-					>
-						<Icon name="tabler:brand-instagram" class="w-5 h-5" />
-					</a>
-				</li>
-				<li>
-					<a
-						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-						aria-label="Facebook"
-						href="#"
-					>
-						<Icon name="tabler:brand-facebook" class="w-5 h-5" />
-					</a>
-				</li>
-				<li>
-					<a
-						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-						aria-label="RSS"
-						href="/rss.xml"
-					>
-						<Icon name="tabler:rss" class="w-5 h-5" />
-					</a>
-				</li>
-				<li>
-					<a
-						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-						aria-label="Github"
-						href="https://github.com/mhaidarhanif/mhaidarhanif-web"
-					>
-						<Icon name="tabler:brand-github" class="w-5 h-5" />
-					</a>
-				</li>
+				{
+					dataSocialLinks.map((socialLink) => {
+						return (
+							<li>
+								<a
+									class="inline-flex items-center rounded-lg p-2.5 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+									aria-label={socialLink.label}
+									href={socialLink.href}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<Icon name={socialLink.iconName} class="h-5 w-5" />
+								</a>
+							</li>
+						);
+					})
+				}
 			</ul>
+
 			<div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
-				<span>© {currentYear} M Haidar Hanif</span>
+				<span>© {currentYear}</span>
+				<span class="font-bold">M Haidar Hanif</span>
 				<span> · All rights reserved.</span>
 			</div>
 		</div>
