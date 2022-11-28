@@ -9,7 +9,7 @@ export const SITE = {
 	description:
 		'🧊 Helping people to be better especially in modern career, web development, software engineering, tech business, and life in general.',
 
-	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
+	googleAnalyticsId: 'G-QWCFS2WLC1', // false or "G-XXXXXXXXXX",
 	googleSiteVerificationId: '',
 };
 
