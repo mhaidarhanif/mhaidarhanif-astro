@@ -2,7 +2,7 @@
 import { Icon } from 'astro-icon';
 ---
 
-<div class="flex flex-nowrap max-w-none gap-x-4 gap-y-1 items-center">
+<div class="flex flex-wrap max-w-none gap-x-4 gap-y-1 items-center justify-center sm:justify-start">
 	<a
 		target="_blank"
 		rel="noopener"
@@ -15,8 +15,17 @@ import { Icon } from 'astro-icon';
 	<a
 		target="_blank"
 		rel="noopener"
-		href="https://t.me/mhaidarhanif"
+		href="https://linkedin.com/in/mhaidarhanif"
 		class="btn text-white bg-cyan-600 hover:bg-cyan-800 mb-4 sm:mb-0"
+	>
+		<Icon name="bi:linkedin" class="w-5 h-5 mr-2 -ml-1.5" />
+		<span> Connect</span>
+	</a>
+	<a
+		target="_blank"
+		rel="noopener"
+		href="https://t.me/mhaidarhanif"
+		class="btn text-white bg-blue-600 hover:bg-blue-800 mb-4 sm:mb-0"
 	>
 		<Icon name="bi:telegram" class="w-5 h-5 mr-2 -ml-1.5" />
 		<span> Chat</span>
