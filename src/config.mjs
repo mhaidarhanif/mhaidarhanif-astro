@@ -7,7 +7,7 @@ export const SITE = {
 
 	title: 'M Haidar Hanif — Educator, Mentor, Consultant, Software Engineer, Web Developer',
 	description:
-		'⚡ Helping people to be better especially in modern career, web development, software engineering, tech business, and life in general.',
+		'🧊 Helping people to be better especially in modern career, web development, software engineering, tech business, and life in general.',
 
 	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
 	googleSiteVerificationId: '',

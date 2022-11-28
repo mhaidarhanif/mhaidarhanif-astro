@@ -9,13 +9,13 @@ canonical: https://mhaidarhanif.com/about # When posting content to multiple pla
 
 ## About Me
 
-Hi there! I'm Haidar. Nice to meet you!
+👋 Hi there! I'm Haidar. Nice to meet you!
 
-Mostly goes by as an Educator, Mentor, Developer, Designer, Consultant, and much more! And I've been doing this professionally since 2010.
+😄 Mostly goes by as an Educator, Mentor, Developer, Designer, Consultant, and much more! And I've been doing this professionally since 2010.
 
-This is a short highlights how I got here. Starting around the 90s I was just learning stuffs.
+😎 This is a short highlights how I got here. Starting around the 90s I was just learning stuffs.
 
-Now helping people to become become better at what they do is my life and work mission.
+🧊 Now helping people to become become better at what they do is my life and work mission.
 
 ### Main Work
 
