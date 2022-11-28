@@ -4,41 +4,37 @@ import { Icon } from 'astro-icon';
 const items = [
 	[
 		{
-			title: 'Integration with Tailwind CSS',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-			icon: 'tabler:brand-tailwind',
-		},
-		{
-			title: 'Ready-to-use Components',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+			title: 'General Stack',
+			description: 'JavaScript, TypeScript, Node.js/Deno/Bun, npm/yarn/pnpm',
 			icon: 'tabler:components',
 		},
 		{
-			title: 'Best Practices',
+			title: 'Frontend and UI Components',
 			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-			icon: 'tabler:list-check',
+				'HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Ariakit, Radix UI, Headless UI, Vite, Turbopack, React, React Router, TanStack Router',
+			icon: 'tabler:brand-tailwind',
+		},
+		{
+			title: 'Backend and Database',
+			description: 'GraphQL Yoga, Express, NestJS, Pothos, Prisma, PostgreSQL, MySQL/MariaDB',
+			icon: 'tabler:rocket',
 		},
 	],
 	[
 		{
-			title: 'Excellent Page Speed',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-			icon: 'tabler:rocket',
+			title: 'Full Stack, Web API, Testing',
+			description: 'Remix, Next.js, Astro, RedwoodJS, REST API, GraphQL, Vitest, Playwright',
+			icon: 'tabler:list-check',
 		},
 		{
-			title: 'Frequently updated',
+			title: 'Deployment, Infra, Services',
 			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+				'Vercel, Netlify, Railway.app, Various Analytics, Mailjet, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure',
 			icon: 'tabler:arrows-right-left',
 		},
 		{
-			title: 'Open to new ideas and contributions',
-			description:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+			title: 'Management, Repo, Tools',
+			description: 'Linear, Markdown, Git, GitHub, Turborepo, Warp, VS Code, Vim, Slidev',
 			icon: 'tabler:ballon',
 		},
 	],
@@ -59,9 +55,7 @@ const items = [
 				</span>
 			</h2>
 			<p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
-				Mostly using HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Node.js, React, Remix, Next.js, Vite, NestJS,
-				Vitest, Playwright, REST API, GraphQL, Pothos, Prisma, PostgreSQL, MySQL/MariaDB, Vercel, Railway.app, Google
-				Cloud Platform (GCP), Amazon Web Services (AWS)
+				Mostly using web technologies
 			</p>
 		</div>
 		<div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
@@ -71,7 +65,7 @@ const items = [
 						{subitems.map(({ title, description, icon }) => (
 							<div class="flex max-w-md flex-row">
 								<div class="mb-4 mr-4">
-									<div class="bg-primary-500 flex h-12 w-12 items-center justify-center rounded-full">
+									<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary-500">
 										{icon && <Icon name={icon} class="h-5 w-5 text-white" />}
 									</div>
 								</div>
