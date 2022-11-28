@@ -1,16 +1,15 @@
 ---
-publishDate: 'Nov 30 2022'
 title: 'About M Haidar Hanif'
 description: 'Short highlights how Haidar went with his life.'
 excerpt: 'Haidar is an Educator, Mentor, Developer, Designer, Consultant. Currently working on Catamyst and with CodePolitan, RevoU, Kontenbase, Poinswap, High Skill Masters, and Casual On/Offline Developer Event. Was also at Impact Byte, Hacktiv8, and so on...'
 image: '~/assets/images/astronaut.jpg'
-tags: [about, personal]
+tags: [about, personal, story, introduction]
 canonical: https://mhaidarhanif.com/about # When posting content to multiple platforms at the same time (such as this website and Medium) and want to specify the ultimate authority. Remove it to automatically generate canonical
 ---
 
 ## About Me
 
-Hi there! I'm Haidar.
+Hi there! I'm Haidar. Nice to meet you!
 
 Mostly goes by as an Educator, Mentor, Developer, Designer, Consultant, and much more! And I've been doing this professionally since 2010.
 
