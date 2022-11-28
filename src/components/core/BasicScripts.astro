@@ -38,6 +38,9 @@
 			localStorage.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
 		});
 
+		// Social Share
+		// Telegram: https://core.telegram.org/widgets/share
+
 		attachEvent('[data-aw-social-share]', 'click', function (elem) {
 			const network = elem.getAttribute('data-aw-social-share');
 			const url = encodeURIComponent(elem.getAttribute('data-aw-url'));
@@ -54,13 +57,15 @@
 				case 'linkedin':
 					href = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${text}`;
 					break;
+				case 'telegram':
+					href = `https://t.me/share/url?url=${url}&text=${text}`;
+					break;
 				case 'whatsapp':
 					href = `https://wa.me/?text=${text}%20${url}`;
 					break;
 				case 'mail':
 					href = `mailto:?subject=%22${text}%22&body=${text}%20${url}`;
 					break;
-
 				default:
 					return;
 			}
@@ -71,6 +76,7 @@
 			newlink.click();
 		});
 	};
+
 	window.onpageshow = function () {
 		const elem = document.querySelector('[data-aw-toggle-menu]');
 		if (elem) {

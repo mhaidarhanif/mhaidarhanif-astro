@@ -20,6 +20,11 @@ export const dataSocialLinks = [
 		iconName: 'tabler:brand-twitter',
 	},
 	{
+		label: 'Telegram',
+		href: 'https://t.me/mhaidarhanif',
+		iconName: 'tabler:brand-telegram',
+	},
+	{
 		label: 'Facebook',
 		href: 'https://facebook.com/mhaidarhanif',
 		iconName: 'tabler:brand-facebook',
