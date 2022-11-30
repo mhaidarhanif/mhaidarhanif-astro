@@ -2,42 +2,48 @@ import type { SocialLinks } from '~/types';
 
 export const dataSocialLinks: SocialLinks = [
 	{
+		label: 'RSS Feed',
+		href: '/rss.xml',
+		iconName: 'mdi:rss',
+		inHeader: true,
+	},
+	{
 		label: 'GitHub',
 		href: 'https://github.com/mhaidarhanif',
-		iconName: 'tabler:brand-github',
+		iconName: 'mdi:github',
 		inHeader: true,
 	},
 	{
 		label: 'LinkedIn',
 		href: 'https://linkedin.com/in/mhaidarhanif',
-		iconName: 'tabler:brand-linkedin',
+		iconName: 'mdi:linkedin',
 		inHeader: true,
 	},
 	{
 		label: 'Twitter',
 		href: 'https://twitter.com/mhaidarhanif',
-		iconName: 'tabler:brand-twitter',
+		iconName: 'mdi:twitter',
 		inHeader: true,
 	},
 	{
 		label: 'YouTube',
 		href: 'https://youtube.com/mhaidarhanif',
-		iconName: 'tabler:brand-youtube',
+		iconName: 'mdi:youtube',
 	},
 	{
 		label: 'Telegram',
 		href: 'https://t.me/mhaidarhanif',
-		iconName: 'tabler:brand-telegram',
+		iconName: 'mdi:telegram',
 	},
 	{
 		label: 'Facebook',
 		href: 'https://facebook.com/mhaidarhanif',
-		iconName: 'tabler:brand-facebook',
+		iconName: 'mdi:facebook',
 	},
 	{
 		label: 'Instagram',
 		href: 'https://instagram.com/mhaidarhanif_',
-		iconName: 'tabler:brand-instagram',
+		iconName: 'mdi:instagram',
 	},
 	{
 		label: 'Showwcase',
@@ -49,10 +55,5 @@ export const dataSocialLinks: SocialLinks = [
 		href: 'https://catamyst.com/haidar',
 		iconName: 'mdi:cat',
 		inHeader: true,
-	},
-	{
-		label: 'RSS',
-		href: '/rss.xml',
-		iconName: 'tabler:rss',
 	},
 ];

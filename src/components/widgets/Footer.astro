@@ -13,176 +13,108 @@ const currentYear = currentDate.getFullYear();
 		<div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
 			<div class="col-span-12 lg:col-span-4">
 				<div class="mb-2">
-					<a class="opacity-50 grayscale inline-block font-bold text-xl" href={getHomePermalink()}>
+					<a
+						class="opacity-50 transition hover:opacity-100 grayscale inline-block font-bold text-xl"
+						href={getHomePermalink()}
+					>
 						<Logo />
 					</a>
 				</div>
 				<div class="text-sm text-gray-600">
-					<a
-						class="text-gray-600 hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-						href="#">Terms</a
-					> ·
-					<a
-						class="text-gray-600 hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-						href="#">Privacy Policy</a
-					>
+					<a class="sitemap-link" href="#">Terms</a>
+					<span> ·{' '}</span>
+					<a class="sitemap-link" href="#">Privacy Policy</a>
 				</div>
 			</div>
 			<div class="col-span-6 md:col-span-3 lg:col-span-2">
-				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Product</div>
+				<div class="sitemap-title">Product</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Features</a
-						>
+						<a class="sitemap-link" href="#">Features</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Security</a
-						>
+						<a class="sitemap-link" href="#">Security</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Team</a
-						>
+						<a class="sitemap-link" href="#">Team</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Enterprise</a
-						>
+						<a class="sitemap-link" href="#">Enterprise</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Customer stories</a
-						>
+						<a class="sitemap-link" href="#">Customer stories</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Pricing</a
-						>
+						<a class="sitemap-link" href="#">Pricing</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Resources</a
-						>
+						<a class="sitemap-link" href="#">Resources</a>
 					</li>
 				</ul>
 			</div>
 			<div class="col-span-6 md:col-span-3 lg:col-span-2">
-				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Platform</div>
+				<div class="sitemap-title">Platform</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Developer API</a
-						>
+						<a class="sitemap-link" href="#">Developer API</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Partners</a
-						>
+						<a class="sitemap-link" href="#">Partners</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Atom</a
-						>
+						<a class="sitemap-link" href="#">Atom</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Electron</a
-						>
+						<a class="sitemap-link" href="#">Electron</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>GitHub Desktop</a
-						>
+						<a class="sitemap-link" href="#">GitHub Desktop</a>
 					</li>
 				</ul>
 			</div>
 			<div class="col-span-6 md:col-span-3 lg:col-span-2">
-				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Support</div>
+				<div class="sitemap-title">Support</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Docs</a
-						>
+						<a class="sitemap-link" href="#">Docs</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Community Forum</a
-						>
+						<a class="sitemap-link" href="#">Community Forum</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Professional Services</a
-						>
+						<a class="sitemap-link" href="#">Professional Services</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Skills</a
-						>
+						<a class="sitemap-link" href="#">Skills</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Status</a
-						>
+						<a class="sitemap-link" href="#">Status</a>
 					</li>
 				</ul>
 			</div>
 			<div class="col-span-6 md:col-span-3 lg:col-span-2">
-				<div class="text-gray-800 dark:text-gray-300 font-medium mb-2">Company</div>
+				<div class="sitemap-title">Company</div>
 				<ul class="text-sm">
 					<li class="mb-2">
-						<a
-							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-							href="#"
-						>
-							About
-						</a>
+						<a class="sitemap-link" href="#"> About</a>
 					</li>
 					<li class="mb-2">
-						<a
-							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-							href="#"
-						>
-							Blog
-						</a>
+						<a class="sitemap-link" href="#"> Blog</a>
 					</li>
 					<li class="mb-2">
-						<a
-							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-							href="#"
-						>
-							Careers
-						</a>
+						<a class="sitemap-link" href="#"> Careers</a>
 					</li>
 					<li class="mb-2">
-						<a class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out" href="#"
-							>Press</a
-						>
+						<a class="sitemap-link" href="#">Press</a>
 					</li>
 					<li class="mb-2">
-						<a
-							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-							href="#"
-						>
-							Inclusion
-						</a>
+						<a class="sitemap-link" href="#"> Inclusion</a>
 					</li>
 					<li class="mb-2">
-						<a
-							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-							href="#"
-						>
-							Social Impact
-						</a>
+						<a class="sitemap-link" href="#"> Social Impact</a>
 					</li>
 					<li class="mb-2">
-						<a
-							class="text-gray-600 hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
-							href="#"
-						>
-							Shop
-						</a>
+						<a class="sitemap-link" href="#"> Shop</a>
 					</li>
 				</ul>
 			</div>

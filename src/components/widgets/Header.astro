@@ -27,6 +27,7 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 		</div>
 
 		<nav
+			id="nav-main"
 			class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-screen md:h-auto"
 			aria-label="Main navigation"
 		>
@@ -54,9 +55,9 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 				<!-- <li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href={getPermalink('useful-resources-to-create-websites', 'post')}
+						href={getPermalink('my-tech-stack', 'post')}
 					>
-						Resources
+						Stack
 					</a>
 				</li> -->
 
@@ -83,13 +84,6 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 
 			<div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
 				<div class="hidden items-center md:flex">
-					<a
-						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-						aria-label="RSS Feed"
-						href="/rss.xml"
-					>
-						<Icon name="tabler:rss" class="w-5 h-5" />
-					</a>
 					{
 						dataSocialLinks
 							.filter((socialLink) => socialLink.inHeader)
@@ -107,15 +101,6 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 								);
 							})
 					}
-					<!-- <a
-						class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
-						aria-label="GitHub"
-						href="https://github.com/mhaidarhanif"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<Icon name="tabler:brand-github" class="w-5 h-5" />
-					</a> -->
 				</div>
 			</div>
 		</nav>
