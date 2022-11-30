@@ -27,6 +27,7 @@
 [data-aw-toggle-menu] path {
 	@apply transition;
 }
+
 [data-aw-toggle-menu].expanded g > path:first-child {
 	@apply translate-y-[15px] translate-x-[-3px] -rotate-45;
 }
