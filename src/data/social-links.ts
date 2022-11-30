@@ -46,9 +46,29 @@ export const dataSocialLinks: SocialLinks = [
 		iconName: 'mdi:instagram',
 	},
 	{
+		label: 'DEV Community',
+		href: 'https://dev.to/haidar',
+		iconName: 'mdi:dev-to',
+	},
+	{
+		label: 'Hashnode',
+		href: 'https://hashnode.com/@mhaidarhanif',
+		iconName: 'mdi:developer-board',
+	},
+	{
 		label: 'Showwcase',
 		href: 'https://showwcase.com/haidar',
-		iconName: 'tabler:backpack',
+		iconName: 'mdi:bag-personal',
+	},
+	{
+		label: 'Polywork',
+		href: 'https://polywork.com/haidar',
+		iconName: 'mdi:apps-box',
+	},
+	{
+		label: 'CV',
+		href: 'https://haidar.read.cv',
+		iconName: 'mdi:file-document',
 	},
 	{
 		label: 'Catamyst',
