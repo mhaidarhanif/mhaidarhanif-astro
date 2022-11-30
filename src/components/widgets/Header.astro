@@ -5,23 +5,27 @@ import ToggleTheme from '~/components/core/ToggleTheme.astro';
 import ToggleMenu from '~/components/core/ToggleMenu.astro';
 
 import { getBlogPermalink, getHomePermalink } from '~/utils/permalinks';
-import { dataNavigationItems } from '~/data';
+import { dataNavigationItems, dataSocialLinks } from '~/data';
 ---
 
 <header
-	class="sticky top-0 z-40 flex-none mx-auto w-full bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900/90 md:backdrop-blur-sm"
 	id="header"
+	class="sticky top-0 z-40 flex-none mx-auto w-full bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900/90 md:backdrop-blur-sm"
 >
 	<div class="py-2 px-4 mx-auto w-full md:flex md:justify-between max-w-6xl sm:px-6">
 		<div class="flex justify-between">
-			<a class="flex items-center" href={getHomePermalink()}>
-				<Logo />
-			</a>
+			<div class="flex items-center gap-2">
+				<a href={getHomePermalink()}>
+					<Logo />
+				</a>
+				<ToggleTheme iconClass="w-5 h-5" />
+			</div>
+
 			<div class="flex items-center md:hidden">
-				<ToggleTheme />
 				<ToggleMenu />
 			</div>
 		</div>
+
 		<nav
 			class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-screen md:h-auto"
 			aria-label="Main navigation"
@@ -39,6 +43,14 @@ import { dataNavigationItems } from '~/data';
 						);
 					})
 				}
+				<li>
+					<a
+						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						href={getBlogPermalink()}
+					>
+						<span>Blog</span>
+					</a>
+				</li>
 				<!-- <li>
 					<a
 						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
@@ -47,26 +59,30 @@ import { dataNavigationItems } from '~/data';
 						Resources
 					</a>
 				</li> -->
-				<li>
-					<a
-						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href={getBlogPermalink()}>Blog</a
-					>
-				</li>
-				<li class="md:hidden">
-					<a
-						class="hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
-						href="https://github.com/mhaidarhanif"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						GitHub
-					</a>
-				</li>
+
+				{
+					dataSocialLinks
+						.filter((socialLink) => socialLink.inHeader)
+						.map((socialLink) => {
+							return (
+								<li class="md:hidden">
+									<a
+										class="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white"
+										href={socialLink.href}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<Icon name={socialLink.iconName} class="mr-2 h-5 w-5" />
+										<span>{socialLink.label}</span>
+									</a>
+								</li>
+							);
+						})
+				}
 			</ul>
+
 			<div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
 				<div class="hidden items-center md:flex">
-					<ToggleTheme iconClass="w-5 h-5" />
 					<a
 						class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
 						aria-label="RSS Feed"
@@ -74,7 +90,24 @@ import { dataNavigationItems } from '~/data';
 					>
 						<Icon name="tabler:rss" class="w-5 h-5" />
 					</a>
-					<a
+					{
+						dataSocialLinks
+							.filter((socialLink) => socialLink.inHeader)
+							.map((socialLink) => {
+								return (
+									<a
+										class="inline-block rounded-lg p-2.5 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+										aria-label={socialLink.label}
+										href={socialLink.href}
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<Icon name={socialLink.iconName} class="h-5 w-5" />
+									</a>
+								);
+							})
+					}
+					<!-- <a
 						class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
 						aria-label="GitHub"
 						href="https://github.com/mhaidarhanif"
@@ -82,7 +115,7 @@ import { dataNavigationItems } from '~/data';
 						rel="noopener noreferrer"
 					>
 						<Icon name="tabler:brand-github" class="w-5 h-5" />
-					</a>
+					</a> -->
 				</div>
 			</div>
 		</nav>

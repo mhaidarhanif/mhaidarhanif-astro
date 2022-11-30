@@ -3,21 +3,24 @@ export const dataSocialLinks = [
 		label: 'GitHub',
 		href: 'https://github.com/mhaidarhanif',
 		iconName: 'tabler:brand-github',
+		inHeader: true,
 	},
 	{
 		label: 'LinkedIn',
 		href: 'https://linkedin.com/in/mhaidarhanif',
 		iconName: 'tabler:brand-linkedin',
-	},
-	{
-		label: 'YouTube',
-		href: 'https://youtube.com/mhaidarhanif',
-		iconName: 'tabler:brand-youtube',
+		inHeader: true,
 	},
 	{
 		label: 'Twitter',
 		href: 'https://twitter.com/mhaidarhanif',
 		iconName: 'tabler:brand-twitter',
+		inHeader: true,
+	},
+	{
+		label: 'YouTube',
+		href: 'https://youtube.com/mhaidarhanif',
+		iconName: 'tabler:brand-youtube',
 	},
 	{
 		label: 'Telegram',

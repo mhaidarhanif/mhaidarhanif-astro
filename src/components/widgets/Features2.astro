@@ -5,19 +5,20 @@ const items = [
 	[
 		{
 			title: 'General Stack',
-			description: 'JavaScript, TypeScript, Node.js/Deno/Bun, npm/yarn/pnpm',
+			description:
+				'JavaScript, TypeScript, Node.js/Deno/Bun, npm/yarn/pnpm, Golang, Rust, Python, Ruby, Kotlin/Java, Swift, Dart',
 			icon: 'tabler:components',
 		},
 		{
 			title: 'Frontend and UI Components',
 			description:
 				'HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Ariakit, Radix UI, Headless UI, Vite, Turbopack, React, React Router, TanStack Router',
-			icon: 'tabler:brand-tailwind',
+			icon: 'tabler:eye',
 		},
 		{
 			title: 'Backend and Database',
 			description: 'Express, NestJS, GraphQL Yoga, Pothos, Prisma, MySQL/MariaDB/PlanetScale, PostgreSQL/Neon/Supabase',
-			icon: 'tabler:rocket',
+			icon: 'tabler:database',
 		},
 	],
 	[
@@ -25,18 +26,19 @@ const items = [
 			title: 'Full Stack, Web API, Testing, CI/CD',
 			description:
 				'Remix, Next.js, Astro, RedwoodJS, REST API, GraphQL, tRPC, gRPC, Vitest, testing-library, Playwright, GitHub Actions',
-			icon: 'tabler:list-check',
+			icon: 'tabler:arrows-right-left',
 		},
 		{
 			title: 'Deployment, Infra, Services',
 			description:
 				'Vercel, Netlify, Railway.app, Various Analytics, Mailjet, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure',
-			icon: 'tabler:arrows-right-left',
+			icon: 'tabler:rocket',
 		},
 		{
-			title: 'Management, Repo, Tools',
-			description: 'Linear, Markdown, Git, GitHub, Turborepo, Warp, VS Code, Vim, Slidev',
-			icon: 'tabler:ballon',
+			title: 'Management, Repo, Misc',
+			description:
+				'Linear, Basecamp, Twist/Slack/Discord, Markdown, Git, GitHub/GitLab, Turborepo, Warp/iTerm2/Hyper, Vim, VS Code, Slidev',
+			icon: 'tabler:list-check',
 		},
 	],
 ];
@@ -57,7 +59,15 @@ const items = [
 				</span>
 			</h2>
 			<p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
-				Mostly using web technologies
+				<span>Mostly using web technologies.</span>
+				<a
+					class="font-bold text-primary-500"
+					target="_blank"
+					rel="noopener noreferrer"
+					href="https://a.catamyst.com/stack"
+				>
+					See complete list
+				</a>
 			</p>
 		</div>
 		<div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
@@ -67,12 +77,12 @@ const items = [
 						{subitems.map(({ title, description, icon }) => (
 							<div class="flex max-w-md flex-row">
 								<div class="mb-4 mr-4">
-									<div class="bg-primary-500 flex h-12 w-12 items-center justify-center rounded-full">
-										{icon && <Icon name={icon} class="h-5 w-5 text-white" />}
+									<div class="bg-primary-500 flex h-12 w-12 items-center justify-center rounded-xl">
+										{icon && <Icon name={icon} class="h-6 w-6 text-white" />}
 									</div>
 								</div>
 								<div>
-									<h3 class="mb-3 text-xl font-bold">{title}</h3>
+									<h3 class="mb-2 text-xl font-bold">{title}</h3>
 									<p>{description}</p>
 								</div>
 							</div>
