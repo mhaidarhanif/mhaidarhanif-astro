@@ -1,7 +1,7 @@
 ---
 import { Icon } from 'astro-icon';
 
-const items = [
+const dataStackItems = [
 	[
 		{
 			title: 'General Stack',
@@ -44,10 +44,13 @@ const items = [
 ];
 ---
 
-<section class="scroll-mt-16" id="features">
-	<div class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20 bg-primary-50 dark:bg-slate-800 rounded-xl">
+<section id="features" class="scroll-mt-16">
+	<div
+		id="features-content"
+		class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20 lg:rounded-xl bg-primary-50 dark:bg-[#151c29]"
+	>
 		<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-			<p class="text-base text-primary-600 dark:text-primary-200 font-semibold tracking-wide uppercase">
+			<p class="text-base text-primary-700 dark:text-primary-200 font-semibold tracking-wide uppercase">
 				It's Techin' Time
 			</p>
 			<h2 class="text-4xl md:text-5xl font-medium leading-tighter tracking-tighter mb-4 font-heading">
@@ -61,7 +64,7 @@ const items = [
 			<p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
 				<span>Mostly using web technologies.</span>
 				<a
-					class="font-medium text-primary-500"
+					class="font-medium text-primary-700 dark:text-primary-300"
 					target="_blank"
 					rel="noopener noreferrer"
 					href="https://a.catamyst.com/stack"
@@ -72,7 +75,7 @@ const items = [
 		</div>
 		<div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
 			{
-				items.map((subitems) => (
+				dataStackItems.map((subitems) => (
 					<div class="space-y-8 sm:px-8">
 						{subitems.map(({ title, description, icon }) => (
 							<div class="flex max-w-md flex-row">
