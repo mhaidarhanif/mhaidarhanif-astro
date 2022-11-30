@@ -1,4 +1,6 @@
-export const dataSocialLinks = [
+import type { SocialLinks } from '~/types';
+
+export const dataSocialLinks: SocialLinks = [
 	{
 		label: 'GitHub',
 		href: 'https://github.com/mhaidarhanif',
@@ -36,6 +38,17 @@ export const dataSocialLinks = [
 		label: 'Instagram',
 		href: 'https://instagram.com/mhaidarhanif_',
 		iconName: 'tabler:brand-instagram',
+	},
+	{
+		label: 'Showwcase',
+		href: 'https://showwcase.com/haidar',
+		iconName: 'tabler:backpack',
+	},
+	{
+		label: 'Catamyst',
+		href: 'https://catamyst.com/haidar',
+		iconName: 'mdi:cat',
+		inHeader: true,
 	},
 	{
 		label: 'RSS',

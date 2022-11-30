@@ -1,4 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+export type Posts = Post[];
+
 export type Post = {
 	id: string;
 	Content: any;
@@ -21,5 +23,3 @@ export type Post = {
 		title: string;
 	};
 };
-
-export type Posts = Post[];
