@@ -2,8 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-import { ToggleThemeButton } from '~/components/atoms/ToggleThemeButton';
-
 const meta = {
 	title: 'Page Name',
 	description: 'Page Description.',
@@ -32,11 +30,7 @@ const meta = {
 				</div>
 			</div>
 
-			<div>
-				<ToggleThemeButton client:load />
-			</div>
-
-			<div>
+			<div class="text-xl">
 				<ul>
 					<li class="dark:hover:text-rss hover:text-rss">Color</li>
 					<li class="dark:hover:text-github hover:text-github">Color</li>
