@@ -16,14 +16,15 @@ const items = [
 		},
 		{
 			title: 'Backend and Database',
-			description: 'GraphQL Yoga, Express, NestJS, Pothos, Prisma, PostgreSQL, MySQL/MariaDB',
+			description: 'Express, NestJS, GraphQL Yoga, Pothos, Prisma, MySQL/MariaDB/PlanetScale, PostgreSQL/Neon/Supabase',
 			icon: 'tabler:rocket',
 		},
 	],
 	[
 		{
-			title: 'Full Stack, Web API, Testing',
-			description: 'Remix, Next.js, Astro, RedwoodJS, REST API, GraphQL, Vitest, Playwright',
+			title: 'Full Stack, Web API, Testing, CI/CD',
+			description:
+				'Remix, Next.js, Astro, RedwoodJS, REST API, GraphQL, tRPC, gRPC, Vitest, testing-library, Playwright, GitHub Actions',
 			icon: 'tabler:list-check',
 		},
 		{
@@ -66,7 +67,7 @@ const items = [
 						{subitems.map(({ title, description, icon }) => (
 							<div class="flex max-w-md flex-row">
 								<div class="mb-4 mr-4">
-									<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary-500">
+									<div class="bg-primary-500 flex h-12 w-12 items-center justify-center rounded-full">
 										{icon && <Icon name={icon} class="h-5 w-5 text-white" />}
 									</div>
 								</div>
