@@ -6,8 +6,8 @@ import Picture from '~/components/core/Picture.astro';
 <section>
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
 		<div class="py-12 md:py-20">
-			<div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">
-				<h1 class="text-5xl md:text-9xl font-medium leading-tighter tracking-tighter mb-4 font-heading">
+			<div class="sm:text-center pb-10 md:pb-16 max-w-5xl mx-auto">
+				<h1 class="text-8xl md:text-9xl font-medium leading-tighter tracking-tighter mb-4 font-heading">
 					<span>Hi! I'm</span>
 					<span
 						class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 sm:whitespace-nowrap"
@@ -25,13 +25,13 @@ import Picture from '~/components/core/Picture.astro';
 							Fun coding since 2000 + Professional coding since 2010
 						</p>
 					</div>
-					<div class="flex justify-center">
+					<div class="flex sm:justify-center">
 						<FollowButton />
 					</div>
 				</div>
 			</div>
-			<div>
-				<div class="relative mb-8 m-auto max-w-6xl">
+			<div class="mb-8">
+				<div class="relative mb-4 m-auto max-w-6xl">
 					<Picture
 						src={import('~/assets/images/mhaidarhanif-hero.jpg')}
 						class="mx-auto rounded-xl shadow-xl bg-gray-400 dark:bg-slate-700 w-full"
@@ -41,6 +41,11 @@ import Picture from '~/components/core/Picture.astro';
 						aspectRatio="16:9"
 						loading="eager"
 					/>
+				</div>
+				<div class="flex sm:justify-center sm:text-center">
+					<p class="text-md sm:text-xl">
+						🧑🏻‍🏫 Educator & Mentor 🧑🏻‍💻 Software Engineer & Full Stack Web Developer 🐱 Founder and CEO/CTO of Catamyst
+					</p>
 				</div>
 			</div>
 		</div>
