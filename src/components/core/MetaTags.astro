@@ -36,6 +36,9 @@ const image =
 		: _image && typeof _image['src'] !== 'undefined'
 		? new URL(getRelativeUrlByFilePath(_image.src) as string, Astro.site)
 		: null;
+
+const mode = import.meta.env.MODE;
+const isProduction = mode === 'production';
 ---
 
 <meta charset="UTF-8" />
@@ -72,11 +75,15 @@ const image =
 <Fonts />
 
 <!-- Google Site Verification -->
-{SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />}
+{
+	isProduction && SITE.googleSiteVerificationId && (
+		<meta name="google-site-verification" content={SITE.googleSiteVerificationId} />
+	)
+}
 
 <!-- Google Analytics -->
-{SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
+{isProduction && SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
 
-{SITE.splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...SITE.splitbeeAnalytics} />}
+{isProduction && SITE.splitbeeAnalytics?.enabled && <SplitbeeAnalytics {...SITE.splitbeeAnalytics} />}
 
 <ExtraMetaTags />
