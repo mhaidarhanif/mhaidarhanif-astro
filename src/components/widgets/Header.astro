@@ -1,7 +1,8 @@
 ---
 import { Icon } from 'astro-icon';
+
 import Logo from '~/components/atoms/Logo.astro';
-import ToggleTheme from '~/components/core/ToggleTheme.astro';
+import ToggleThemeButton from '~/components/atoms/ToggleThemeButton';
 import ToggleMenu from '~/components/core/ToggleMenu.astro';
 
 import { getBlogPermalink, getHomePermalink } from '~/utils/permalinks';
@@ -18,7 +19,7 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 				<a href={getHomePermalink()}>
 					<Logo />
 				</a>
-				<ToggleTheme iconClass="w-5 h-5" />
+				<ToggleThemeButton client:load />
 			</div>
 
 			<div class="flex items-center md:hidden">

@@ -21,6 +21,7 @@ export default defineConfig({
 	trailingSlash: SITE.trailingSlash ? 'always' : 'never',
 	output: 'static',
 	integrations: [
+		react(),
 		tailwind({
 			config: {
 				applyBaseStyles: false,
@@ -36,7 +37,6 @@ export default defineConfig({
 				forward: ['dataLayer.push'],
 			},
 		}),
-		react(),
 	],
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
