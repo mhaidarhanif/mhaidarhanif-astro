@@ -46,14 +46,14 @@ const { post, url } = Astro.props;
 		</header>
 
 		<div
-			class="container mx-auto px-6 sm:px-6 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-500 dark:prose-a:text-primary-400 hover:dark:prose-a:text-primary-500 prose-img:rounded-xl prose-img:shadow-lg mt-8"
+			class="container mx-auto px-6 sm:px-6 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-md prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-medium prose-a:text-primary-600 hover:prose-a:text-primary-500 dark:prose-a:text-primary-400 dark:hover:prose-a:text-primary-500 prose-img:rounded-xl prose-img:shadow-lg mt-8"
 		>
 			{post.Content ? <post.Content /> : <Fragment set:html={post.body} />}
 		</div>
 
 		<div class="container mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex justify-between flex-col sm:flex-row">
 			<PostTags tags={post.tags} class="mr-5" />
-			<SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-400 dark:text-slate-600" />
+			<SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-400 dark:text-slate-500" />
 		</div>
 	</article>
 </section>
