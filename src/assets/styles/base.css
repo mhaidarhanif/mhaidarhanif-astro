@@ -8,7 +8,7 @@
 	}
 
 	.sitemap-title {
-		@apply mb-2 font-bold text-gray-800 dark:text-gray-300;
+		@apply mb-2 font-medium text-gray-800 dark:text-gray-300;
 	}
 
 	.sitemap-link {

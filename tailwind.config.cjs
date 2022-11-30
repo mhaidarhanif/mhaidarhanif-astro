@@ -10,7 +10,7 @@ module.exports = {
 				secondary: colors.sky,
 			},
 			fontFamily: {
-				sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
+				sans: ["'RubikVariable'", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
