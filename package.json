@@ -27,16 +27,16 @@
     "@tailwindcss/typography": "^0.5.8",
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.42.1",
-    "astro-icon": "^0.8.0",
     "astro": "1.6.5",
+    "astro-icon": "^0.8.0",
+    "eslint": "^8.27.0",
     "eslint-plugin-astro": "^0.21.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint": "^8.27.0",
     "limax": "^v2.1.0",
     "mdast-util-to-string": "^3.1.0",
+    "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.7.0",
     "prettier-plugin-tailwindcss": "0.1.13",
-    "prettier": "^2.7.1",
     "reading-time": "^1.5.0",
     "sharp": "^0.31.2",
     "subfont": "^6.12.2",
@@ -45,5 +45,12 @@
   },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
+  },
+  "dependencies": {
+    "@astrojs/react": "1.2.2",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }

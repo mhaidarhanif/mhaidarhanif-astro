@@ -6,11 +6,12 @@ import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
 import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
-
 import { SITE } from './src/config.mjs';
 import { remarkReadingTime } from './src/utils/frontmatter.ts';
-
+import react from '@astrojs/react';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// https://astro.build/config
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,9 +19,7 @@ export default defineConfig({
 	site: SITE.origin,
 	base: SITE.basePathname,
 	trailingSlash: SITE.trailingSlash ? 'always' : 'never',
-
 	output: 'static',
-
 	integrations: [
 		tailwind({
 			config: {
@@ -31,19 +30,18 @@ export default defineConfig({
 		image({
 			serviceEntryPoint: '@astrojs/image/sharp',
 		}),
-		mdx(),
-
-		/* Disable this integration if you don't use Google Analytics (or other external script). */
+		mdx() /* Disable this integration if you don't use Google Analytics (or other external script). */,
 		partytown({
-			config: { forward: ['dataLayer.push'] },
+			config: {
+				forward: ['dataLayer.push'],
+			},
 		}),
+		react(),
 	],
-
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
 		extendDefaultPlugins: true,
 	},
-
 	vite: {
 		resolve: {
 			alias: {
