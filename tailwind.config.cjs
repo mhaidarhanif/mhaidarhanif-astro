@@ -6,6 +6,7 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
+				brand: '#00aacc',
 				primary: colors.cyan,
 				secondary: colors.sky,
 				rss: '#f26522',

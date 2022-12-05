@@ -1,17 +1,21 @@
 ---
 import { SITE } from '~/config.mjs';
-import { getCanonical, getHomePermalink } from '~/utils/permalinks';
+
 import Layout from '~/layouts/PageLayout.astro';
 
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Features3 from '~/components/widgets/Features3.astro';
-import Hero from '~/components/widgets/Hero.astro';
+import SectionHero from '~/components/widgets/SectionHero.astro';
+import SectionPartners from '~/components/widgets/SectionPartners.astro';
+import SectionCareer from '~/components/widgets/SectionCareer.astro';
+import SectionCTA from '~/components/widgets/SectionCTA.astro';
+import SectionFAQs from '~/components/widgets/SectionFAQs.astro';
+import SectionJourney from '~/components/widgets/SectionJourney.astro';
+import SectionStack from '~/components/widgets/SectionStack.astro';
+import SectionStats from '~/components/widgets/SectionStats.astro';
+import SectionValues from '~/components/widgets/SectionValues.astro';
+
 import HighlightedPosts from '~/components/blog/HighlightedPosts.astro';
-import Journey from '~/components/widgets/Journey.astro';
-import Stats from '~/components/widgets/Stats.astro';
+
+import { getCanonical, getHomePermalink } from '~/utils/permalinks';
 
 const meta = {
 	title: SITE.title,
@@ -21,13 +25,14 @@ const meta = {
 ---
 
 <Layout {meta}>
-	<Hero />
-	<Features />
-	<Features2 />
-	<Journey />
-	<Features3 />
+	<SectionHero />
+	<SectionPartners />
+	<SectionCareer />
+	<SectionStack />
+	<SectionJourney />
+	<SectionValues />
 	<HighlightedPosts />
-	<FAQs />
-	<Stats />
-	<CallToAction />
+	<SectionFAQs />
+	<SectionStats />
+	<SectionCTA />
 </Layout>

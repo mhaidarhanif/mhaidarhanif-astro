@@ -1,0 +1,52 @@
+---
+import FollowButton from '~/components/atoms/FollowButton.astro';
+import Picture from '~/components/core/Picture.astro';
+---
+
+<section id="hero" class="cursor-default">
+	<div class="mx-auto max-w-6xl py-12 sm:px-4">
+		<div class="mx-auto max-w-5xl px-4 pb-10 sm:text-center md:pb-16">
+			<h1 class="leading-tighter font-heading mb-4 text-8xl font-medium tracking-tighter md:text-9xl">
+				<span>Hi! I'm</span>
+				<span
+					class="bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent sm:whitespace-nowrap"
+				>
+					Haidar
+				</span>
+			</h1>
+			<div class="mx-auto max-w-3xl">
+				<div class="mb-8 text-slate-900 dark:text-slate-400">
+					<p class="mb-2 text-xl">
+						🧊 I'm helping people like you to be better especially in modern career, web development, software
+						engineering, tech business, and life in general.
+					</p>
+					<p class="text-md text-slate-600 dark:text-slate-400">
+						Fun coding since 2000 + Professional coding since 2010
+					</p>
+				</div>
+				<div class="flex sm:justify-center">
+					<FollowButton />
+				</div>
+			</div>
+		</div>
+
+		<div class="mb-8">
+			<div class="relative m-auto mb-4 max-w-6xl sm:px-2">
+				<Picture
+					src={import('~/assets/images/mhaidarhanif-hero.jpg')}
+					class="mx-auto sm:rounded-xl shadow-xl bg-gray-400 dark:bg-slate-700 w-full"
+					widths={[600, 1490]}
+					sizes="(max-width: 1490px) 600px, 1490px"
+					alt="Hero Image"
+					aspectRatio="16:9"
+					loading="eager"
+				/>
+			</div>
+			<div class="flex px-4 sm:justify-center sm:text-center">
+				<p class="text-md sm:text-xl">
+					🧑🏻‍🏫 Educator & Mentor 🧑🏻‍💻 Software Engineer & Full Stack Web Developer 🐱 Founder and CEO/CTO of Catamyst
+				</p>
+			</div>
+		</div>
+	</div>
+</section>

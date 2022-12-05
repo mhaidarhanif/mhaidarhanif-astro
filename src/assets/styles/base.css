@@ -4,7 +4,16 @@
 
 @layer components {
 	.btn {
-		@apply inline-flex items-center justify-center rounded-lg border border-transparent py-3 px-6 text-center text-base font-medium leading-snug shadow-lg transition duration-200 ease-in focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-blue-200;
+		@apply py-2 px-4;
+		@apply inline-flex items-center justify-center rounded-lg border border-transparent text-center text-base font-medium leading-snug shadow-lg transition duration-200 ease-in focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-blue-200;
+	}
+
+	.btn-icon {
+		@apply inline-flex items-center rounded-lg p-2.5 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700;
+	}
+
+	.btn-icon-brand {
+		@apply btn-icon dark:hover:bg-gray-300;
 	}
 
 	.btn-icon {

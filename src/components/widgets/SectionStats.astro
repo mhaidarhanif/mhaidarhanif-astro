@@ -1,0 +1,52 @@
+---
+import Anchor from '../atoms/Anchor.astro';
+
+const currentDate = new Date();
+const currentYear = currentDate.getFullYear();
+const totalYear = currentYear - 2010;
+---
+
+<div class="mx-auto max-w-6xl px-4 py-8 sm:px-6 md:py-16 md:px-24 lg:px-8 lg:py-20">
+	<div class="row-gap-8 grid grid-cols-2 md:grid-cols-4">
+		<div class="mb-10 text-center md:mb-0 md:border-r dark:md:border-slate-500">
+			<h2 class="font-heading text-4xl font-medium text-primary-700 dark:text-primary-300 lg:text-5xl xl:text-6xl">
+				<span>~{totalYear}</span>
+			</h2>
+			<h3 class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base">
+				<span>
+					<Anchor href="https://haidar.read.cv">Years</Anchor>
+				</span>
+			</h3>
+		</div>
+		<div class="mb-10 text-center md:mb-0 md:border-r dark:md:border-slate-500">
+			<h2 class="font-heading text-4xl font-medium text-primary-700 dark:text-primary-300 lg:text-5xl xl:text-6xl">
+				±200
+			</h2>
+			<h3 class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base">
+				<span>
+					<Anchor href="https://mhaidarhanif.com">Users</Anchor>
+				</span>
+			</h3>
+		</div>
+		<div class="text-center md:border-r dark:md:border-slate-500">
+			<h2 class="font-heading text-4xl font-medium text-primary-700 dark:text-primary-300 lg:text-5xl xl:text-6xl">
+				±1000
+			</h2>
+			<h3 class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base">
+				<span>
+					<Anchor href="https://github.com/mhaidarhanif">Friends</Anchor>
+				</span>
+			</h3>
+		</div>
+		<div class="text-center">
+			<h2 class="font-heading text-4xl font-medium text-primary-700 dark:text-primary-300 lg:text-5xl xl:text-6xl">
+				±6000
+			</h2>
+			<h3 class="text-sm font-medium uppercase tracking-widest text-gray-800 dark:text-slate-400 lg:text-base">
+				<span>
+					<Anchor href="https://linkedin.com/in/mhaidarhanif">Networks</Anchor>
+				</span>
+			</h3>
+		</div>
+	</div>
+</div>

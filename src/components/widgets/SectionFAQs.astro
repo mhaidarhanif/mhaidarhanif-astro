@@ -1,0 +1,70 @@
+---
+import { Icon } from 'astro-icon';
+
+const items = [
+	[
+		{
+			question: 'What is this question?',
+			answer: `This is the answer with some example sentence. Another sentence so it can be longer and looks good.`,
+		},
+		{
+			question: 'What is this question?',
+			answer: `This is the answer with some example sentence. Another sentence so it can be longer and looks good.`,
+		},
+		{
+			question: 'What is this question?',
+			answer: `This is the answer with some example sentence. Another sentence so it can be longer and looks good.`,
+		},
+	],
+	[
+		{
+			question: 'What is this question?',
+			answer: `This is the answer with some example sentence. Another sentence so it can be longer and looks good.`,
+		},
+		{
+			question: 'What is this question?',
+			answer: `This is the answer with some example sentence. Another sentence so it can be longer and looks good.`,
+		},
+		{
+			question: 'What is this question?',
+			answer: `This is the answer with some example sentence. Another sentence so it can be longer and looks good.`,
+		},
+	],
+];
+---
+
+<div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+	<div class="max-w-xl sm:mx-auto lg:max-w-4xl">
+		<div class="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-4xl">
+			<h2 class="font-heading mb-4 max-w-lg text-3xl font-medium leading-none tracking-tight sm:text-4xl md:mx-auto">
+				<span>My Frequent</span>
+				<span
+					class="whitespace-nowrap bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
+				>
+					Questions
+				</span>
+			</h2>
+		</div>
+	</div>
+	<div class="max-w-screen-xl sm:mx-auto">
+		<div class="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:gap-x-16">
+			{
+				items.map((subitems) => (
+					<div class="space-y-8">
+						{subitems.map(({ question, answer }) => (
+							<div>
+								<p class="mb-4 text-xl font-medium">
+									<Icon name="mdi:chat" class="icon-bold text-primary-500 inline-block h-7 w-7" />
+									{question}
+								</p>
+								{answer.split('\n\n').map((paragraph) => (
+									<p class="mb-2 text-gray-700 dark:text-gray-400" set:html={paragraph} />
+								))}
+							</div>
+						))}
+					</div>
+				))
+			}
+		</div>
+	</div>
+</div>

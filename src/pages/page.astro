@@ -1,6 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import SectionCTA from '~/components/widgets/SectionCTA.astro';
 
 const meta = {
 	title: 'Page Name',
@@ -11,20 +11,20 @@ const meta = {
 
 <Layout {meta}>
 	<section>
-		<div class="max-w-6xl mx-auto px-4 sm:px-6">
+		<div class="mx-auto max-w-6xl px-4 sm:px-6">
 			<div class="py-12 md:py-20">
-				<div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">
-					<h1 class="text-5xl font-medium leading-tighter tracking-tighter mb-4 font-heading">
+				<div class="mx-auto max-w-5xl pb-10 text-center md:pb-16">
+					<h1 class="leading-tighter font-heading mb-4 text-5xl font-medium tracking-tighter">
 						<span>Example</span>
 						<span
-							class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 sm:whitespace-nowrap"
+							class="bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent sm:whitespace-nowrap"
 						>
 							Page
 						</span>
 					</h1>
-					<div class="max-w-3xl mx-auto">
+					<div class="mx-auto max-w-3xl">
 						<div class="mb-8 text-gray-600 dark:text-slate-400">
-							<p class="text-xl mb-2">Page Example.</p>
+							<p class="mb-2 text-xl">Page Example.</p>
 						</div>
 					</div>
 				</div>
@@ -32,24 +32,24 @@ const meta = {
 
 			<div class="text-xl">
 				<ul>
-					<li class="dark:hover:text-rss hover:text-rss">Color</li>
-					<li class="dark:hover:text-github hover:text-github">Color</li>
-					<li class="dark:hover:text-linkedin hover:text-linkedin">Color</li>
-					<li class="dark:hover:text-twitter hover:text-twitter">Color</li>
-					<li class="dark:hover:text-youtube hover:text-youtube">Color</li>
-					<li class="dark:hover:text-telegram hover:text-telegram">Color</li>
-					<li class="dark:hover:text-facebook hover:text-facebook">Color</li>
-					<li class="dark:hover:text-instagram hover:text-instagram">Color</li>
-					<li class="dark:hover:text-devto hover:text-devto">Color</li>
-					<li class="dark:hover:text-hashnode hover:text-hashnode">Color</li>
-					<li class="dark:hover:text-showwcase hover:text-showwcase">Color</li>
-					<li class="dark:hover:text-polywork hover:text-polywork">Color</li>
-					<li class="dark:hover:text-cv hover:text-cv">Color</li>
-					<li class="dark:hover:text-catamyst hover:text-catamyst">Color</li>
+					<li class="hover:text-rss dark:hover:text-rss">Color</li>
+					<li class="hover:text-github dark:hover:text-github">Color</li>
+					<li class="hover:text-linkedin dark:hover:text-linkedin">Color</li>
+					<li class="hover:text-twitter dark:hover:text-twitter">Color</li>
+					<li class="hover:text-youtube dark:hover:text-youtube">Color</li>
+					<li class="hover:text-telegram dark:hover:text-telegram">Color</li>
+					<li class="hover:text-facebook dark:hover:text-facebook">Color</li>
+					<li class="hover:text-instagram dark:hover:text-instagram">Color</li>
+					<li class="hover:text-devto dark:hover:text-devto">Color</li>
+					<li class="hover:text-hashnode dark:hover:text-hashnode">Color</li>
+					<li class="hover:text-showwcase dark:hover:text-showwcase">Color</li>
+					<li class="hover:text-polywork dark:hover:text-polywork">Color</li>
+					<li class="hover:text-cv dark:hover:text-cv">Color</li>
+					<li class="hover:text-catamyst dark:hover:text-catamyst">Color</li>
 				</ul>
 			</div>
 		</div>
 	</section>
 
-	<CallToAction />
+	<SectionCTA />
 </Layout>
