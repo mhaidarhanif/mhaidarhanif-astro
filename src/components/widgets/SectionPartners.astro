@@ -1,0 +1,28 @@
+---
+import { dataPartners } from '~/data';
+
+import Anchor from '~/components/atoms/Anchor.astro';
+
+const theme = 'light';
+const isLight = theme === 'light';
+---
+
+<section id="partners" class="px-4 pb-20">
+	<div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+		{
+			dataPartners.map((partner) => {
+				return (
+					<div>
+						<Anchor href={partner.url}>
+							<img
+								class="max-h-[75px] w-full max-w-[200px] rounded-sm object-contain"
+								alt={partner.name}
+								src={isLight ? `/logos/${partner.image.light}` : `/logos/${partner.image.dark}`}
+							/>
+						</Anchor>
+					</div>
+				);
+			})
+		}
+	</div>
+</section>
