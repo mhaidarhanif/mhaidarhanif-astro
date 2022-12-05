@@ -210,6 +210,10 @@ If you have any idea, suggestions, or find any bugs, feel free to open a discuss
 
 Initially, the template was made by [onWidget](https://onwidget.com)](https://onwidget.com) and maintained by a community of [contributors](https://github.com/mhaidarhanif/mhaidarhanif-web/graphs/contributors).
 
+## Notes
+
+Keep `limax` at `^v2.1.0` because `v3.0.0` has breaking changes.
+
 ## License
 
 Licensed under the Unlicense license — see the [LICENSE](LICENSE.md) file for details.
