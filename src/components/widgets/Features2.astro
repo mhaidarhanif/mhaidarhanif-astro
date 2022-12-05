@@ -12,7 +12,7 @@ const dataStackItems = [
 		{
 			title: 'Frontend and UI Components',
 			description:
-				'Figma, HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Ariakit, Radix UI, Headless UI, Vite, Turbopack, React, React Router, TanStack Router',
+				'Figma, HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Windi CSS, React, React Router, TanStack Router, Ariakit, Radix UI, Headless UI',
 			icon: 'tabler:eye',
 		},
 		{
@@ -37,7 +37,7 @@ const dataStackItems = [
 		{
 			title: 'Management, Repo, Misc',
 			description:
-				'Linear, Basecamp, Twist/Slack/Discord, Markdown, Git, GitHub/GitLab, Turborepo, Warp/iTerm2/Hyper, Vim, VS Code, Slidev',
+				'Linear, Basecamp, Twist/Slack/Discord, Vim, VS Code, Markdown, Warp/iTerm2/Hyper, Git, GitHub/GitLab, esbuild, Vite, Turbopack, Turborepo, Slidev',
 			icon: 'tabler:list-check',
 		},
 	],
@@ -47,21 +47,21 @@ const dataStackItems = [
 <section id="features" class="scroll-mt-16">
 	<div
 		id="features-content"
-		class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20 lg:rounded-xl bg-primary-50 dark:bg-[#151c29]"
+		class="mx-auto max-w-6xl bg-primary-50 px-4 py-16 dark:bg-[#151c29] lg:rounded-xl lg:px-8 lg:py-20"
 	>
-		<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-			<p class="text-base text-primary-700 dark:text-primary-200 font-semibold tracking-wide uppercase">
+		<div class="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
+			<p class="text-base font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-200">
 				It's Techin' Time
 			</p>
-			<h2 class="text-4xl md:text-5xl font-medium leading-tighter tracking-tighter mb-4 font-heading">
+			<h2 class="leading-tighter font-heading mb-4 text-4xl font-medium tracking-tighter md:text-5xl">
 				<span>My Favorite</span>
 				<span
-					class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 whitespace-nowrap"
+					class="whitespace-nowrap bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
 				>
 					Stack
 				</span>
 			</h2>
-			<p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
+			<p class="mx-auto max-w-3xl text-xl text-gray-600 dark:text-slate-400 sm:text-center">
 				<span>Mostly using web technologies.</span>
 				<a
 					class="font-medium text-primary-700 dark:text-primary-300"
@@ -73,7 +73,7 @@ const dataStackItems = [
 				</a>
 			</p>
 		</div>
-		<div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
+		<div class="mx-auto grid space-y-6 md:grid-cols-2 md:space-y-0">
 			{
 				dataStackItems.map((subitems) => (
 					<div class="space-y-8 sm:px-8">

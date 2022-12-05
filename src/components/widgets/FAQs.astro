@@ -10,7 +10,7 @@ const items = [
     Another paragraph. Many say exploration is part of our destiny, but it’s actually our duty to future generations.`,
 		},
 		{
-			question: 'How to install the Astro + Tailwind CSS template?',
+			question: 'How to install?',
 			answer: `Example paragraph. Well, the way they make shows is, they make one show. That show's called a pilot.
 
 			Example paragraph. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.`,
@@ -39,13 +39,13 @@ const items = [
 ];
 ---
 
-<div class="px-4 py-16 sm:px-6 mx-auto max-w-6xl lg:py-20">
+<div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
 	<div class="max-w-xl sm:mx-auto lg:max-w-4xl">
-		<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-4xl md:mb-12">
-			<h2 class="max-w-lg mb-4 text-3xl font-medium leading-none tracking-tight sm:text-4xl md:mx-auto font-heading">
+		<div class="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-4xl">
+			<h2 class="font-heading mb-4 max-w-lg text-3xl font-medium leading-none tracking-tight sm:text-4xl md:mx-auto">
 				<span>My Frequent</span>
 				<span
-					class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 whitespace-nowrap"
+					class="whitespace-nowrap bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
 				>
 					Questions
 				</span>
@@ -53,7 +53,7 @@ const items = [
 		</div>
 	</div>
 	<div class="max-w-screen-xl sm:mx-auto">
-		<div class="grid grid-cols-1 gap-x-8 gap-y-8 lg:gap-x-16 md:grid-cols-2">
+		<div class="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:gap-x-16">
 			{
 				items.map((subitems) => (
 					<div class="space-y-8">

@@ -3,8 +3,8 @@ import { Icon } from 'astro-icon';
 import Picture from '~/components/core/Picture.astro';
 ---
 
-<section class="px-4 py-16 sm:px-6 mx-auto lg:py-20 max-w-6xl">
-	<div class="grid gap-10 row-gap-10 md:grid-cols-2">
+<section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:py-20">
+	<div class="row-gap-10 grid gap-10 md:grid-cols-2">
 		<div class="relative">
 			<Picture
 				class="object-cover object-top w-full rounded-xl shadow-lg md:absolute md:h-full bg-gray-400 dark:bg-slate-700 max-w-[500]"
@@ -16,43 +16,45 @@ import Picture from '~/components/core/Picture.astro';
 			/>
 		</div>
 		<div class="md:pb-6 md:pr-16">
-			<h2 class="mb-8 text-3xl lg:text-4xl font-medium font-heading">My Journey</h2>
+			<h2 class="font-heading mb-8 text-3xl font-medium lg:text-4xl">My Journey</h2>
 			<div class="flex">
-				<div class="flex flex-col items-center mr-4">
+				<div class="mr-4 flex flex-col items-center">
 					<div>
-						<div class="flex items-center justify-center w-10 h-10 rounded-full border-secondary-500 border-2">
+						<div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-secondary-500">
 							<Icon name="tabler:arrow-down" class="w-6 h-6 text-gray-600 dark:text-slate-200 icon-bold" />
 						</div>
 					</div>
-					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
+					<div class="h-full w-px bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
 					<p class="mb-2 text-xl font-medium text-gray-900 dark:text-slate-300">Frontend Web</p>
-					<p>All things UI, UX, Figma, HTML, CSS, JavaScript, TypeScript, and React.</p>
+					<p>
+						All things interface and interaction. Including UI, UX, Figma, HTML, CSS, JavaScript, TypeScript, and React.
+					</p>
 				</div>
 			</div>
 			<div class="flex">
-				<div class="flex flex-col items-center mr-4">
+				<div class="mr-4 flex flex-col items-center">
 					<div>
-						<div class="flex items-center justify-center w-10 h-10 rounded-full border-secondary-500 border-2">
+						<div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-secondary-500">
 							<Icon name="tabler:arrow-down" class="w-6 h-6 text-gray-600 dark:text-slate-200 icon-bold" />
 						</div>
 					</div>
-					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
+					<div class="h-full w-px bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
 					<p class="mb-2 text-xl font-medium text-gray-900 dark:text-slate-300">Backend Web</p>
-					<p>All things database, DBMS, ORM, REST API, and GraphQL.</p>
+					<p>All things API and database. Including DBMS, ORM, REST API, and GraphQL.</p>
 				</div>
 			</div>
 			<div class="flex">
-				<div class="flex flex-col items-center mr-4">
+				<div class="mr-4 flex flex-col items-center">
 					<div>
-						<div class="flex items-center justify-center w-10 h-10 rounded-full border-secondary-500 border-2">
+						<div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-secondary-500">
 							<Icon name="tabler:arrow-down" class="w-6 h-6 text-gray-600 dark:text-slate-200 icon-bold" />
 						</div>
 					</div>
-					<div class="w-px h-full bg-gray-300 dark:bg-slate-500"></div>
+					<div class="h-full w-px bg-gray-300 dark:bg-slate-500"></div>
 				</div>
 				<div class="pt-1 pb-8">
 					<p class="mb-2 text-xl font-medium text-gray-900 dark:text-slate-300">Full Stack Web</p>
@@ -60,9 +62,9 @@ import Picture from '~/components/core/Picture.astro';
 				</div>
 			</div>
 			<div class="flex">
-				<div class="flex flex-col items-center mr-4">
+				<div class="mr-4 flex flex-col items-center">
 					<div>
-						<div class="flex items-center justify-center w-10 h-10 rounded-full border-primary-600 border-2">
+						<div class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-primary-600">
 							<Icon name="tabler:check" class="w-6 h-6 text-gray-600 dark:text-slate-200 icon-bold" />
 						</div>
 					</div>

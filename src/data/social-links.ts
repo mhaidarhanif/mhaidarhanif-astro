@@ -10,6 +10,14 @@ export const dataSocialLinks: SocialLinks = [
 		inHeader: true,
 	},
 	{
+		label: 'Twitter',
+		slug: 'twitter',
+		colorCode: '#1d9bf0',
+		href: 'https://twitter.com/mhaidarhanif',
+		iconName: 'mdi:twitter',
+		inHeader: true,
+	},
+	{
 		label: 'GitHub',
 		slug: 'github',
 		colorCode: '#333',
@@ -23,14 +31,6 @@ export const dataSocialLinks: SocialLinks = [
 		colorCode: '#0a66c2',
 		href: 'https://linkedin.com/in/mhaidarhanif',
 		iconName: 'mdi:linkedin',
-		inHeader: true,
-	},
-	{
-		label: 'Twitter',
-		slug: 'twitter',
-		colorCode: '#1d9bf0',
-		href: 'https://twitter.com/mhaidarhanif',
-		iconName: 'mdi:twitter',
 		inHeader: true,
 	},
 	{
@@ -73,7 +73,7 @@ export const dataSocialLinks: SocialLinks = [
 		slug: 'hashnode',
 		colorCode: '#2863ff',
 		href: 'https://hashnode.com/@mhaidarhanif',
-		iconName: 'mdi:developer-board',
+		iconName: 'mdi:nut',
 	},
 	{
 		label: 'Showwcase',

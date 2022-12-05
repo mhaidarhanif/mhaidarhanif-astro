@@ -10,9 +10,9 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 
 <header
 	id="header"
-	class="sticky top-0 z-40 flex-none mx-auto w-full bg-white md:bg-white/90 dark:bg-slate-900 dark:md:bg-slate-900/90 md:backdrop-blur-sm"
+	class="sticky top-0 z-40 mx-auto w-full flex-none bg-white dark:bg-slate-900 md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90"
 >
-	<div class="py-2 px-4 mx-auto w-full md:flex md:justify-between max-w-6xl sm:px-6">
+	<div class="mx-auto w-full max-w-6xl py-2 px-4 sm:px-6 md:flex md:justify-between">
 		<div class="flex justify-between">
 			<div class="flex items-center gap-2">
 				<a href={getHomePermalink()}>
@@ -28,10 +28,10 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 
 		<nav
 			id="nav-main"
-			class="items-center w-full md:w-auto hidden md:flex text-gray-600 dark:text-slate-200 h-screen md:h-auto"
+			class="hidden h-screen w-full items-center text-gray-600 dark:text-slate-200 md:flex md:h-auto md:w-auto"
 			aria-label="Main navigation"
 		>
-			<ul class="flex flex-col pt-8 md:pt-0 md:flex-row md:self-center w-full md:w-auto text-xl md:text-base">
+			<ul class="flex w-full flex-col pt-8 text-xl md:w-auto md:flex-row md:self-center md:pt-0 md:text-base">
 				{
 					dataNavigationItems.map((item) => {
 						return (
@@ -48,7 +48,7 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 				}
 				<li>
 					<a
-						class="font-medium hover:text-gray-900 dark:hover:text-white px-4 py-3 flex items-center transition duration-150 ease-in-out"
+						class="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out hover:text-gray-900 dark:hover:text-white"
 						href={getBlogPermalink()}
 					>
 						<span>Blog</span>
@@ -84,7 +84,7 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 				}
 			</ul>
 
-			<div class="md:self-center flex items-center mb-4 md:mb-0 ml-2">
+			<div class="mb-4 ml-2 flex items-center md:mb-0 md:self-center">
 				<div class="hidden items-center md:flex">
 					{
 						dataSocialLinks
@@ -92,7 +92,7 @@ import { dataNavigationItems, dataSocialLinks } from '~/data';
 							.map((socialLink) => {
 								return (
 									<a
-										class={`inline-block rounded-lg p-2.5 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-700  hover:text-${socialLink.slug} dark:hover:text-${socialLink.slug}`}
+										class={`btn-icon-brand hover:text-${socialLink.slug} dark:hover:text-${socialLink.slug}`}
 										aria-label={socialLink.label}
 										href={socialLink.href}
 										target="_blank"
