@@ -29,17 +29,9 @@ canonical: https://mhaidarhanif.com/about # When posting content to multiple pla
 
 💼 There are some collaborations run with [Catamyst](https://catamyst.com) on which roles I have...
 
-💠 Mentor and Content Creator at [CodePolitan](https://catamyst.codepolitan.com), a programming community and I'm in charge of the Frontend Web Development bootcamp.
-
 🌕 Curriculum Contributor at [RevoU](https://revou.co/software-engineering), in charge of the Full Stack Software Engineering bootcamp curriculum.
 
-⛺ Developer Relations Lead of [Kontenbase](https://kontenbase.com) (related to [DumbWays](https://dumbways.id)), a backend as a service platform that simple and easy to use. Interested? [Schedule a demo](https://kontenbase.com/demo).
-
 🎨 Web Consultant at [Super Duper Gallery](https://superdupergallery.com), a physical IRL unique art gallery.
-
-🧑‍💻 Community Lead of High Skill Masters and CODE (Casual On/Offline Developer Event), a gathering of highly skilled professionals and developers.
-
-💧 (On Hold) Product Engineer of [Poinswap](https://poinswap), a decentralized exchange for cryptocurrencies and tokens.
 
 ## Past Works
 
@@ -47,14 +39,22 @@ Previously I was...
 
 🐲 Co-Founder and Lead Mentor of **Impact Byte**, a flexible coding bootcamp.
 
-🪙 Contract Consultant of **Qopnet**, a B2B marketplace.
-
 🦊 Senior Instructor of **Hacktiv8**, an intensive coding bootcamp.
+
+💠 Mentor and Content Creator at [CodePolitan](https://codepolitan.com), a programming community and I was in charge of the Frontend Web Development bootcamp.
+
+⛺ Developer Relations Lead of [Kontenbase](https://kontenbase.com), a backend as a service platform that simple and easy to use.
+
+🧑‍💻 Community Lead of CODE (Casual On/Offline Developer Event), a gathering of highly skilled professionals and developers.
+
+💧 Product Engineer of [Poinswap](https://poinswap), a decentralized exchange for cryptocurrencies and tokens.
+
+🪙 Contract Consultant of **Qopnet**, a B2B marketplace.
 
 🔥 Teaching at **Agnium**, a software training agency.
 
 🔈 Coding at **AMPlified**, a startup incubator.
 
-🍜 And working as a freelancer and consultant in several places since 2010.
+🍜 And working as a freelancer and consultant in several projects and places since 2010.
 
-🍵 The story continues here later.
+🍵 The story continues...

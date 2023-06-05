@@ -9,5 +9,25 @@
   "prettier.documentSelectors": ["**/*.astro"],
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#00d4ff",
+    "activityBar.background": "#00d4ff",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#df00b9",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#00d4ff",
+    "statusBar.background": "#00aacc",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#00d4ff",
+    "statusBarItem.remoteBackground": "#00aacc",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#00aacc",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#00aacc99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "00aacc"
 }
