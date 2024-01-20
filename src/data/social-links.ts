@@ -96,12 +96,4 @@ export const dataSocialLinks: SocialLinks = [
 		href: 'https://haidar.read.cv',
 		iconName: 'mdi:file-document',
 	},
-	{
-		label: 'Catamyst',
-		slug: 'catamyst',
-		colorCode: '#0aa',
-		href: 'https://catamyst.com/haidar',
-		iconName: 'mdi:cat',
-		inHeader: true,
-	},
 ];
