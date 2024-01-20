@@ -19,19 +19,13 @@ canonical: https://mhaidarhanif.com/about # When posting content to multiple pla
 
 ### Main Work
 
-🐱 Currently I'm founding [Catamyst](https://catamyst.com), an education platform and software company to bring that mission forward. Especially in tech career, web app development, software engineering, and startup building.
+Currently I'm founding [Bearmentor](https://bearementor.com) and [Catamyst](https://catamyst.com).
 
-🐯 [Catamyst](https://catamyst.com) provides free and paid learning materials, private mentorship, as well as business/software development and consultancy service.
+🐻 Bearmentor to help people to learn and grow as a web developer or software engineer with exciting experience.
 
-🦁 If you want to get mentored by me directly and personally, [just reach me out](https://t.me/mhaidarhanif) or [schedule a discussion](https://a.catamyst.com/haidar-discuss).
+🐱 Catamyst to help businesses to grow through web and software.
 
-### Current Works
-
-💼 There are some collaborations run with [Catamyst](https://catamyst.com) on which roles I have...
-
-🌕 Curriculum Contributor at [RevoU](https://revou.co/software-engineering), in charge of the Full Stack Software Engineering bootcamp curriculum.
-
-🎨 Web Consultant at [Super Duper Gallery](https://superdupergallery.com), a physical IRL unique art gallery.
+If you want to know more [reach me out on Telegram](https://t.me/mhaidarhanif).
 
 ## Past Works
 
@@ -43,11 +37,11 @@ Previously I was...
 
 💠 Mentor and Content Creator at [CodePolitan](https://codepolitan.com), a programming community and I was in charge of the Frontend Web Development bootcamp.
 
+🌕 Curriculum Contributor at [RevoU](https://revou.co/software-engineering), in charge of the Full Stack Software Engineering bootcamp curriculum.
+
+🎨 Web Consultant at [Super Duper Gallery](https://superdupergallery.com), a physical IRL unique art gallery.
+
 ⛺ Developer Relations Lead of [Kontenbase](https://kontenbase.com), a backend as a service platform that simple and easy to use.
-
-🧑‍💻 Community Lead of CODE (Casual On/Offline Developer Event), a gathering of highly skilled professionals and developers.
-
-💧 Product Engineer of [Poinswap](https://poinswap), a decentralized exchange for cryptocurrencies and tokens.
 
 🪙 Contract Consultant of **Qopnet**, a B2B marketplace.
 
